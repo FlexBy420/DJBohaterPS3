@@ -1,0 +1,2477 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- dj:
+-1 = Random
+0 = Jugg
+1 = Itch
+2 = HHH DJ?
+3 = Kandi
+4 = Roxi
+5 = Cookie
+6 = Rev
+7 = Wunderboy
+8 = ???
+9 = ???
+10 = HHH guitar
+-->
+<!-- <Credits environment="Techno" track="DJH253 Third Eye Blind Jackson 5" dj="-1"> -->
+<Credits environment="Techno"
+         track0="DJH253 Third Eye Blind Jackson 5"
+         track1="DJH164 Dizzie Rascal Organ Donor"
+         track2="DJH215 Gwen Gorillaz"
+         track3="DJH208 Rhianna Tramp"
+         track4="DJH270 Killers Eric Prydz"
+         dj="-1">
+
+  <!-- creditgroupsize: the font size for credit group text,
+  crediteesize: the font size for creditee text) -->
+  <Font companyfont="GazzRegular_35"
+        creditgroupfont="GazzRegular_35"
+        crediteerolefont="GazzRegular_35"
+        crediteefont="GazzRegular_35"
+        companysize="0.1"
+        creditgroupsize="0.08"
+        crediteerolesize="0.05"
+        crediteesize="0.05"
+        companycolour="1.0,1.0,1.0,1.0"
+        creditgroupcolour="1.0,0.8,0.1,1.0"
+        cretitrolecolour="0.96,0.92,0.56,1.0"
+        crediteecolour="1.0,1.0,1.0,1.0"/>
+  <!-- startx: the start position on the xaxis, 
+  wrapx: the wrap position on the xaxis,
+  starty: the start position on the yaxis,
+  linesbetweenXXX: number of blank lines between groupings,
+  blanklinesize: the 'font' size of blank lines-->
+  <Layout startx="0.0"
+          wrapx="1.0"
+          starty="1.0"
+          linesbetweencompanies="3"
+          linesbetweengroups="2"
+          linesbetweenroles="1"
+          blanklinesize="0.05"
+          companyalign="centre"
+          creditgroupalign="left"
+          crediteealign="left"/>
+  <!-- leadintime: the amount of time before the credits start scrolling
+  leadouttime: the amount of time after the credits have finished to wait before fading out  -->
+  <Timing scrollspeed="0.2" fadeintime="2.0" fadeouttime="2.0" leadintime="6.0" leadouttime="1.0"/>
+  <!-- Credits are listed as Company->Group->Creditee
+  Company names can be localised or unlocalised
+  CreditGroup names must be localised
+  Creditee names are not localised -->
+
+  <Company displayname="FREESTYLEGAMES">
+    <CreditsGroup displayname="MANAGEMENT AND PRODUCTION">
+      <CrediteeRole name="COMMERCIAL DIRECTOR"/>
+      <Creditee name="Chris Lee"/>
+
+      <CrediteeRole name="DESIGN DIRECTOR"/>
+      <Creditee name="Dave Osbourn"/>
+
+      <CrediteeRole name="CREATIVE DIRECTOR"/>
+      <Creditee name="Jamie Jackson"/>
+
+      <CrediteeRole name="TECHNICAL DIRECTOR"/>
+      <Creditee name="Phil Hindle"/>
+
+      <CrediteeRole name="MUSIC DIRECTOR"/>
+      <Creditee name="Dan Neil"/>
+
+      <CrediteeRole name="STUDIO MANAGER"/>
+      <Creditee name="David Costello"/>
+
+      <CrediteeRole name="MUSIC STUDIO MANAGER"/>
+      <Creditee name="Kevin McSherry"/>
+
+      <CrediteeRole name="PRODUCER"/>
+      <Creditee name="Patrik McCormack"/>
+
+      <CrediteeRole name="ASSOCIATE PRODUCER"/>
+      <Creditee name="Tim Dunn"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="GAME DESIGN">
+      <CrediteeRole name="LEAD DESIGNER"/>
+      <Creditee name="Neil Wigfield"/>
+      
+      <CrediteeRole name="SENIOR DESIGNER"/>
+      <Creditee name="Paul Turland"/>
+      
+      <CrediteeRole name="DESIGNER"/>
+      <Creditee name="Nathan Coppard"/>
+
+      <CrediteeRole name="MUSIC GAMEPLAY DESIGNER"/>
+      <Creditee name="Chris Gordon"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="PROGRAMMING">
+      <CrediteeRole name="LEAD PROGRAMMER"/>
+      <Creditee name="Alex Zoro"/>
+
+      <CrediteeRole name="SENIOR PROGRAMMERS"/>
+      <Creditee name="Andy Bastable"/>
+      <Creditee name="Ewan Brown"/>
+      <Creditee name="Neil Campbell"/>
+      <Creditee name="Wayne Coles"/>
+      <Creditee name="Alex Darby"/>
+      <Creditee name="Ranulf Doswell"/>
+      <Creditee name="Rob Dutton"/>
+      <Creditee name="David Jones"/>
+      <Creditee name="Daniel Horbury"/>
+      <Creditee name="David Reed"/>
+      <Creditee name="Jens Restemeier"/>
+      <Creditee name="David Spencer"/>
+      <Creditee name="Darren Vine"/>
+
+      <CrediteeRole name="PROGRAMMERS"/>
+      <Creditee name="Will Augar"/>
+      <Creditee name="Darren Bowen"/>
+      <Creditee name="Chris Fuller"/>
+      <Creditee name="George Harris"/>
+      <Creditee name="Rob Jessop"/>
+      <Creditee name="Euan MacGregor"/>
+      <Creditee name="Chris Mash"/>
+      <Creditee name="Ian Norris"/>
+      <Creditee name="Paul Rahme"/>
+      <Creditee name="Steve Rodham"/>
+      
+      <CrediteeRole name="PROGRAMMER/ANALYST"/>
+      <Creditee name="Eva Swap"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="ART">
+      <CrediteeRole name="ART MANAGER"/>
+      <Creditee name="Mike Rutter"/>
+
+      <CrediteeRole name="ART OUTSOURCE MANAGER"/>
+      <Creditee name="Nik Love-Gittins"/>
+
+      <CrediteeRole name="SENIOR CHARACTER ARTISTS"/>
+      <Creditee name="Gareth Morrison"/>
+      <Creditee name="Rob Nash"/>
+      <Creditee name="Pete Nicholson"/>
+
+      <CrediteeRole name="CHARACTER ARTIST"/>
+      <Creditee name="Adam Conway"/>
+
+      <CrediteeRole name="SENIOR ENVIRONMENT ARTISTS"/>
+      <Creditee name="Phil Bale"/>
+      <Creditee name="James Horn"/>
+      
+      <CrediteeRole name="ENVIRONMENT ARTISTS"/>
+      <Creditee name="Gordon Champ"/>
+      <Creditee name="Gareth Harwood"/>
+      <Creditee name="Jolan Martinez"/>
+      <Creditee name="Matt Squires"/>
+
+      <CrediteeRole name="SENIOR HUD ARTIST"/>
+      <Creditee name="Andy Pallister"/>
+
+      <CrediteeRole name="SENIOR CONCEPT FRONTEND ARTISTS"/>
+      <Creditee name="Dan Lish"/>
+
+      <CrediteeRole name="CONCEPT FRONTEND ARTIST"/>
+      <Creditee name="Rob Hale"/>
+
+      <CrediteeRole name="VISUAL MARKUP LEAD"/>
+      <Creditee name="Jonny Ambrose"/>
+
+      <CrediteeRole name="SENIOR VISUAL MARKUP ARTIST"/>
+      <Creditee name="Tim Shepherd"/>
+      
+      <CrediteeRole name="VISUAL MARKUP ARTISTS"/>
+      <Creditee name="Chris Brown"/>
+      <Creditee name="Anthony Callaghan"/>
+      <Creditee name="Oliver Harrison"/>
+      <Creditee name="Helen Rowell"/>     
+
+      <CrediteeRole name="LEAD ANIMATOR"/>
+      <Creditee name="Neil Watts"/>
+
+      <CrediteeRole name="ANIMATORS"/>
+      <Creditee name="Eren Aydin"/>
+      <Creditee name="Jon Baker"/>
+      <Creditee name="Elaine Duffy"/>
+      <Creditee name="Junior Jesman"/>
+      <Creditee name="James “Jim” Onslow-Major"/>
+      <Creditee name="Shane Mitchell"/>
+      <Creditee name="Lucy Webber"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="FSG MIDI DESIGN TEAM">
+      <CrediteeRole name="ASSOCIATE PRODUCER"/>
+      <Creditee name="Joel Davey"/>
+
+      <CrediteeRole name="LEAD MIDI DESIGNER"/>
+      <Creditee name="Paul Norris"/>
+
+      <CrediteeRole name="SENIOR MIDI DESIGNER"/>
+      <Creditee name="Alex Comer"/>
+      <Creditee name="Alex “Alfie” Benyon"/>
+
+      <CrediteeRole name="MIDI DESIGNERS"/>
+      <Creditee name="John Crick"/>
+      <Creditee name="Matt Flint"/>
+      <Creditee name="Mike McLafferty"/>
+      <Creditee name="Phil Underhill"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="MUSIC TEAM">
+      <CrediteeRole name="REMIX PRODUCTION MANAGER"/>
+      <Creditee name="Donnison Laing (Pirate Soundsystem)"/>
+
+      <CrediteeRole name="SENIOR DJ REMIXER"/>
+      <Creditee name="Ofei Sakyi"/>
+      <Creditee name="D-Code"/>
+      <Creditee name="Julian Fenner"/>
+      <Creditee name="Tom Oke"/>
+
+      <CrediteeRole name="SCRATCH DJ"/>
+      <Creditee name="DJ Blakey"/>
+
+      <CrediteeRole name="DJ REMIXERS"/>
+      <Creditee name="Eddy Frankel"/>
+      <Creditee name="Josh Grigg (Pirate Soundsystem)"/>
+      <Creditee name="Jack Murphy"/>
+      <Creditee name="NSG"/>
+
+      <CrediteeRole name="EXTERNAL REMIXERS"/>
+      <Creditee name="Al Mawdsley"/>
+      <Creditee name="Harminder Dhanjal"/>
+      <Creditee name="James Connolly"/>
+      <Creditee name="Alex Sushon"/>
+      <Creditee name="Jake Ridley"/>
+
+      <CrediteeRole name="MIXING AND MASTERING ENGINEERS"/>
+      <Creditee name="Bill Ambrose"/>
+      <Creditee name="Al Mawdsley"/>
+      <Creditee name="Ofei Sakyi"/>
+      <Creditee name="Mike Wright"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="FSG QUALITY ASSURANCE">
+      <CrediteeRole name="HEAD OF QA"/>
+      <Creditee name="Joe Lenton"/>
+
+      <CrediteeRole name="SENIOR QA TECHNICIAN"/>
+      <Creditee name="Nick Scurr"/>
+
+      <CrediteeRole name="QA TECHNICIANS"/>
+      <Creditee name="Ian Carter"/>
+      <Creditee name="Jonathan Davies"/>
+      <Creditee name="Dan Hughes"/>
+      <Creditee name="Richard Lucas"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="ADMIN">
+      <CrediteeRole name="HR MANAGER"/>
+      <Creditee name="Nikki Cooper"/>
+
+      <CrediteeRole name="OFFICE MANAGER"/>
+      <Creditee name="Renée Harris"/>
+      
+      <CrediteeRole name="OFFICE SUPPORT"/>
+      <Creditee name="Kylie Paton"/>
+
+      <CrediteeRole name="FINANCE MANAGER"/>
+      <Creditee name="Joanne Whiteman"/>
+
+      <CrediteeRole name="FINANCE SUPPORT"/>
+      <Creditee name="Lyn Evans"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="IT SUPPORT">
+      <Creditee name="Rob Shone"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="PRODUCTION BABIES">
+      <Creditee name="Rowan Hindle"/>
+      <Creditee name="Evelyn Bastable"/>
+      <Creditee name="Elodie Costello"/>
+      <Creditee name="Charlie and Mae Osbourn"/>
+      <Creditee name="Sam Nash"/>
+      <Creditee name="Seth Norris"/>
+      <Creditee name="Eirys Horn"/>
+      <Creditee name="Rhys Morrison"/>
+      <Creditee name="Lucy Dutton"/>
+      <Creditee name="Abraham Darby"/>
+      <Creditee name="Raphael Andrew and Carmen Victoria Pallister"/>
+      <Creditee name="Araminta Dunn"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="FREESTYLEGAMES WOULD LIKE TO THANK:">
+      <Creditee name="All our families"/>
+      <Creditee name="John Allensworth"/>
+      <Creditee name="John Broomhall"/>
+      <Creditee name="James Clarke"/>
+      <Creditee name="Replay Heaven"/>
+      <Creditee name="Tommy Keegan"/>
+      <Creditee name="Jay Komas"/>
+      <Creditee name="Rachael Finka"/>
+      <Creditee name="Jonathan Smith"/>
+      <Creditee name="Bharathwaj “Bat” Nandakumar"/>
+      <Creditee name="Neversoft Entertainment"/>
+      <Creditee name="Ewan Oughton"/>
+      <Creditee name="Mean Red"/>
+      <Creditee name="Ali Renn"/>
+      <Creditee name="Grant Robson"/>
+      <Creditee name="John Russell"/>
+      <Creditee name="Simon Stone"/>
+      <Creditee name="George Proudfoot"/>
+      <Creditee name="Simon Whalley"/>
+      <Creditee name="Mike Woods"/>
+      <Creditee name="Vicarious Visions Inc."/>
+      <Creditee name="ZERO-G Ltd."/>
+    </CreditsGroup>
+  </Company>
+  <Company displayname="ACTIVISION">
+    <CreditsGroup displayname="PRODUCTION">
+      <CrediteeRole name="EVP, WW STUDIOS"/>
+      <Creditee name="Dave Stohl"/>
+
+      <CrediteeRole name="SR. VICE PRESIDENT PRODUCTION"/>
+      <Creditee name="Laird Malamed"/>
+
+      <CrediteeRole name="VICE PRESIDENT PRODUCTION"/>
+      <Creditee name="Keith Kirby"/>
+
+      <CrediteeRole name="SR. PRODUCERS"/>
+      <Creditee name="Aron Drayer"/>
+      <Creditee name="Luke Vernon"/>
+
+      <CrediteeRole name="PRODUCER"/>
+      <Creditee name="Will Townsend"/>
+      <Creditee name="Derek Dutilly"/>
+
+      <CrediteeRole name="ASSOCIATE PRODUCER"/>
+      <Creditee name="Doug Grutzmacher"/>
+      <Creditee name="Jared Yeager"/>
+
+      <CrediteeRole name="PRODUCTION COORDINATOR"/>
+      <Creditee name="Jim Norris"/>
+      <Creditee name="Elias Jimenez"/>
+
+      <CrediteeRole name="PRODUCTION ADDITIONAL SUPPORT"/>
+      <Creditee name="Jeff Matsushita"/>
+      <Creditee name="J. Boone"/>
+      <Creditee name="Andrew Hoffacker"/>
+      <Creditee name="Eric Grossman"/>
+      <Creditee name="Alex Ortiz"/>
+      <Creditee name="Jeremiah Maza"/>
+      <Creditee name="Junko Nakamura"/>
+      <Creditee name="Lorena Villa"/>
+      <Creditee name="Billy Kaplan"/>
+      <Creditee name="Jane Chung"/>
+      <Creditee name="Peter Kavic"/>
+      <Creditee name="Kragen Lum"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="MUSIC LICENSING">
+      <CrediteeRole name="VICE PRESIDENT MUSIC AFFAIRS"/>
+      <Creditee name="Tim Riley"/>
+
+      <CrediteeRole name="SR. MANAGER MUSIC AFFAIRS"/>
+      <Creditee name="Brandon Young"/>
+
+      <CrediteeRole name="MUSIC SUPERVISOR"/>
+      <Creditee name="Scott McDaniel"/>
+
+      <CrediteeRole name="AUDIO ASSET SPECIALIST"/>
+      <Creditee name="David Iscove"/>
+
+      <CrediteeRole name="INTERNATIONAL MUSIC LICENSING MANAGER"/>
+      <Creditee name="Sergio Pimentel"/>
+
+      <CrediteeRole name="MUSIC AND LICENSING SPECIALIST"/>
+      <Creditee name="Jeremy Volk"/>
+      <Creditee name="Mike Phegley"/>
+
+      <CrediteeRole name="MUSIC COORDINATOR"/>
+      <Creditee name="Jonathan Bodell"/>
+      <Creditee name="Katie Sippel"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="LEGAL">
+      <CrediteeRole name="SENIOR VICE PRESIDENT AND GENERAL COUNSEL"/>
+      <Creditee name="Greg Deutsch"/>
+
+      <CrediteeRole name="DIRECTOR GOVERNMENT AND LEGISLATIVE AFFAIRS"/>
+      <Creditee name="Phil Terzian"/>
+
+      <CrediteeRole name="TRANSACTIONAL COUNSEL"/>
+      <Creditee name="Travis Stansbury"/>
+
+      <CrediteeRole name="SENIOR PARALEGAL"/>
+      <Creditee name="Kap Kang"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="CENTRAL TECHNOLOGY">
+      <CrediteeRole name="SR. VP OF TECHNOLOGY, CTO"/>
+      <Creditee name="Steve Pearce"/>
+
+      <CrediteeRole name="EXECUTIVE PRODUCER"/>
+      <Creditee name="Mike Ward"/>
+
+      <CrediteeRole name="PRODUCTION COORDINATOR"/>
+      <Creditee name="Sasha Rebecca Gross"/>
+
+      <CrediteeRole name="VP ART PRODUCTION"/>
+      <Creditee name="Alessandro Tento"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="ENGINEERING (CENTRAL TECHNOLOGY)">
+      <CrediteeRole name="LEAD SOFTWARE ENGINEER"/>
+      <Creditee name="John Allensworth"/>
+
+      <CrediteeRole name="VP ONLINE"/>
+      <Creditee name="John Bojorquez"/>
+
+      <CrediteeRole name="SR. DIRECTOR OF TECHNOLOGY"/>
+      <Creditee name="Pat Griffith"/>
+
+      <CrediteeRole name="SR. DIRECTOR OF TECHNOLOGY"/>
+      <Creditee name="Matt Wilkinson"/>
+
+      <CrediteeRole name="TECHNICAL DIRECTOR"/>
+      <Creditee name="Natty Hoffman"/>
+
+      <CrediteeRole name="TECHNICAL DIRECTOR, EUROPEAN STUDIOS"/>
+      <Creditee name="Will Eastcott"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="CENTRAL DESIGN">
+      <CrediteeRole name="SR. DIRECTOR GAME DESIGN"/>
+      <Creditee name="Carl Schnurr"/>
+
+      <CrediteeRole name="MANAGER OF USER-TESTING"/>
+      <Creditee name="Ray Kowalewski"/>
+
+      <CrediteeRole name="USER-TESTING SUPERVISOR"/>
+      <Creditee name="Phil Keck"/>
+
+      <CrediteeRole name="SR. DESIGNERS"/>
+      <Creditee name="Derek Daniels"/>
+      <Creditee name="Tom Wells"/>
+
+      <CrediteeRole name="DESIGN ANALYST"/>
+      <Creditee name="Jeff Chen"/>
+
+      <CrediteeRole name="SR. WRITER"/>
+      <Creditee name="Adam Foshko"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="CENTRAL AUDIO">
+      <CrediteeRole name="AUDIO DIRECTOR"/>
+      <Creditee name="Adam Levenson"/>
+
+      <CrediteeRole name="TALENT ASSOCIATE"/>
+      <Creditee name="Noah Sarid"/>
+
+      <CrediteeRole name="AUDIO PROGRAMMER"/>
+      <Creditee name="Blair Bitonti"/>
+      <Creditee name="Steve Merel"/>
+
+      <CrediteeRole name="SOUND ARTIST"/>
+      <Creditee name="Trevor Bresaw"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="ACTIVISION CAPTURE STUDIO">
+      <CrediteeRole name="MOTION CAPTURE DIRECTOR"/>
+      <Creditee name="Matt Kames"/>
+
+      <CrediteeRole name="PRODUCER"/>
+      <Creditee name="Nick Falzon"/>
+
+      <CrediteeRole name="MOTION CAPTURE SUPERVISOR"/>
+      <Creditee name="Michael Jantz"/>
+
+      <CrediteeRole name="MOTION CAPTURE LEAD"/>
+      <Creditee name="Ben Watson"/>
+
+      <CrediteeRole name="MOTION CAPTURE PIPELINE SUPERVISOR"/>
+      <Creditee name="Stephen Olsen"/>
+
+      <CrediteeRole name="PRODUCTION COORDINATOR"/>
+      <Creditee name="Evan Button"/>
+
+      <CrediteeRole name="DATA CAPTURE SUPERVISOR"/>
+      <Creditee name="Noel Vega"/>
+
+      <CrediteeRole name="DATA CAPTURE PERSONNEL"/>
+      <Creditee name="Spee-D Albuquerque"/>
+      <Creditee name="Mandie Taketa"/>
+      <Creditee name="Aoni Ma"/>
+      <Creditee name="PeiPei Yuan"/>
+
+      <CrediteeRole name="REFERENCE VIDEO"/>
+      <Creditee name="Elizabeth Tom"/>
+      <Creditee name="Stephanie Paris"/>
+
+      <CrediteeRole name="MARKER CLEAN-UP"/>
+      <Creditee name="Animation Vertigo"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="STUDIO CENTRAL OUTSOURCING">
+      <CrediteeRole name="DIRECTOR ART PRODUCTION"/>
+      <Creditee name="Riccard Linde"/>
+
+      <CrediteeRole name="TECHNICAL ART DIRECTOR"/>
+      <Creditee name="Mitch Bowler"/>
+
+      <CrediteeRole name="PRODUCTION MANAGER"/>
+      <Creditee name="Michael Restifo"/>
+
+      <CrediteeRole name="PRODUCTION COORDINATOR"/>
+      <Creditee name="Christopher Codding"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="STUDIO CENTRAL ART">
+      <CrediteeRole name="SENIOR CHARACTER MODELER"/>
+      <Creditee name="Kyle Hefley"/>
+
+      <CrediteeRole name="CHARACTER MODELER"/>
+      <Creditee name="Brad Shortt"/>
+
+      <CrediteeRole name="CONCEPT ARTIST"/>
+      <Creditee name="Naomi Baker"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="STUDIO CENTRAL ANIMATION">
+      <CrediteeRole name="ANIMATION DIRECTOR"/>
+      <Creditee name="Paul B. Lee"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="STUDIO ACTIVISION SHANGHAI">
+      <CrediteeRole name="ANIMATION LEAD"/>
+      <Creditee name="Tony Zhang (Tianyu)"/>
+
+      <CrediteeRole name="ANIMATOR"/>
+      <Creditee name="Quentin Huang (Zhiqing)"/>
+      <Creditee name="Stephen Shi (Liwen)"/>
+      <Creditee name="Erin Li (Hongyan)"/>
+
+      <CrediteeRole name="PROJECT MANAGER"/>
+      <Creditee name="Kyle Cheng (Hao)"/>
+
+      <CrediteeRole name="PROJECT ASSOCIATE"/>
+      <Creditee name="Santy Cheng (Yangfei)"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="MARKETING">
+      <CrediteeRole name="MARKETING DIRECTOR"/>
+      <Creditee name="Ryan Wener"/>
+
+      <CrediteeRole name="SR. GLOBAL BRAND MANAGER"/>
+      <Creditee name="Doug McCracken"/>
+
+      <CrediteeRole name="SR. BRAND MANAGER"/>
+      <Creditee name="Ian McClellan"/>
+      <Creditee name="Gautier Ormancey"/>
+      <Creditee name="Zoran Roso"/>
+
+      <CrediteeRole name="BRAND MANAGER"/>
+      <Creditee name="Monica Guerra"/>
+      <Creditee name="Maurizio Cassano"/>
+      <Creditee name="Nikke Lindner"/>
+      <Creditee name="Nick Geurds"/>
+
+      <CrediteeRole name="MARKETING MANAGER, EM SOUTH"/>
+      <Creditee name="Sara Cantoni"/>
+
+      <CrediteeRole name="MARKETING MANAGER, EM NORTH"/>
+      <Creditee name="Nadja Rehberg"/>
+
+      <CrediteeRole name="ASSOCIATE BRAND MANAGER"/>
+      <Creditee name="Amondo Redmond"/>
+      <Creditee name="Dana Buchman"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="TRADE MARKETING">
+      <CrediteeRole name="TRADE MARKETING MANAGER"/>
+      <Creditee name="Kevin Fryers"/>
+
+      <CrediteeRole name="TRADE MARKETING, EUROPE"/>
+      <Creditee name="Keith Cox"/>
+
+      <CrediteeRole name="FRANCE BUSINESS UNIT MANAGER"/>
+      <Creditee name="Wilfrid Vinmer"/>
+
+      <CrediteeRole name="COMMERCIAL RETAIL MANAGER"/>
+      <Creditee name="Ines Fischer"/>
+
+      <CrediteeRole name="TRADE MARKETING CO-ORDINATOR"/>
+      <Creditee name="Isabel Sanchez"/>
+
+      <CrediteeRole name="COMMERCIAL RETAIL MANAGER"/>
+      <Creditee name="Antonio Masiello"/>
+
+      <CrediteeRole name="TRADE MARKETING CO-ORDINATOR"/>
+      <Creditee name="Sofia Magnusson"/>
+
+      <CrediteeRole name="COMMERCIAL RETAIL MANAGER"/>
+      <Creditee name="Esteban Barten"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="PR">
+      <CrediteeRole name="VICE PRESIDENT, PR"/>
+      <Creditee name="Eric Hollreiser "/>
+
+      <CrediteeRole name="DIRECTOR, PR"/>
+      <Creditee name="Ryh-Ming C. Poon"/>
+
+      <CrediteeRole name="MANAGER, PR"/>
+      <Creditee name="Aaron Grant"/>
+
+      <CrediteeRole name="PUBLICIST"/>
+      <Creditee name="Lindsay Morio"/>
+
+      <CrediteeRole name="JR. PUBLICIST"/>
+      <Creditee name="Jordan Dodge"/>
+
+      <CrediteeRole name="PR COORDINATOR"/>
+      <Creditee name="Andrew Meyer"/>
+
+      <CrediteeRole name="GLOBAL ASSET MANAGER"/>
+      <Creditee name="Karen Yi"/>
+
+      <CrediteeRole name="EUROPEAN PR DIRECTOR"/>
+      <Creditee name="Nick Grange"/>
+
+      <CrediteeRole name="SR. PR MANAGER"/>
+      <Creditee name="Tim Enda-Styra"/>
+
+      <CrediteeRole name="PR MANAGERS"/>
+      <Creditee name="Diane de Domecy"/>
+      <Creditee name="Francesca Carotti"/>
+      <Creditee name="Johanna Hakala"/>
+      <Creditee name="Janette Cohen"/>
+      <Creditee name="Adriana Negueruela"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="BRAND ACTIVATION">
+      <CrediteeRole name="VICE PRESIDENT, BRAND ACTIVATION"/>
+      <Creditee name="Stacey Hirata"/>
+
+      <CrediteeRole name="SR. BRAND ACTIVATION MANAGER"/>
+      <Creditee name="Jon Estanislao"/>
+
+      <CrediteeRole name="ASSOCIATE BRAND MANAGER"/>
+      <Creditee name="Matthew Allen"/>
+
+      <CrediteeRole name="BRAND ACTIVATION ASSOCIATE"/>
+      <Creditee name="Megan Ferguson"/>
+
+      <CrediteeRole name="BRAND ACTIVATION ASSISTANT"/>
+      <Creditee name="Kyle Rechsteiner"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="STUDIO PLANNING OPERATIONS">
+      <CrediteeRole name="SR. VP, WW STUDIOS"/>
+      <Creditee name="Brian Ward"/>
+
+      <CrediteeRole name="VP, STUDIO OPERATIONS"/>
+      <Creditee name="Marcus Sanford"/>
+
+      <CrediteeRole name="SENIOR DIRECTOR, PRODUCTION SERVICES"/>
+      <Creditee name="Suzan Rude"/>
+
+      <CrediteeRole name="DIRECTOR, STUDIO PLANNING AND OPERATIONS"/>
+      <Creditee name="Elizabeth Cho"/>
+
+      <CrediteeRole name="MANAGER, STUDIO PLANNING AND OPERATIONS PLANNING"/>
+      <Creditee name="Anthony Ting"/>
+
+      <CrediteeRole name="CO-ORDINATOR, STUDIO PLANNING AND OPERATIONS"/>
+      <Creditee name="Peter Lipp"/>
+
+      <CrediteeRole name="TRAFFIC CONTROLLER"/>
+      <Creditee name="Sheilah Brooks"/>
+
+      <CrediteeRole name="ASSET MANAGER"/>
+      <Creditee name="Todd Mueller"/>
+
+      <CrediteeRole name="ADMINISTRATOR/GREENLIGHT COORDINATOR"/>
+      <Creditee name="Jennifer Hare"/>
+
+      <CrediteeRole name="DIRECTOR, PRODUCTION SERVICES, EUROPE"/>
+      <Creditee name="Barry Kehoe"/>
+
+      <CrediteeRole name="DIRECTOR, PARTNER RELATIONSHIPS, EUROPE"/>
+      <Creditee name="Samuel Peterson"/>
+
+      <CrediteeRole name="LOCALIZATION COORDINATOR"/>
+      <Creditee name="Chris Osberg"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="CREATIVE SERVICES">
+      <CrediteeRole name="CREATIVE SERVICES MANAGER"/>
+      <Creditee name="Mike Doan"/>
+
+      <CrediteeRole name="EUROPEAN CREATIVE SERVICES MANAGER"/>
+      <Creditee name="Jackie Sutton"/>
+
+      <CrediteeRole name="MARKETING MATERIALS MANAGER"/>
+      <Creditee name="Steve Clark"/>
+
+      <CrediteeRole name="CREATIVE SERVICES PROJECT MANAGER"/>
+      <Creditee name="Mark Lugli"/>
+
+      <CrediteeRole name="CREATIVE SERVICES PROJECT CO-ORDINATOR"/>
+      <Creditee name="Alessandro Cilano"/>
+
+      <CrediteeRole name="WEB DESIGNER"/>
+      <Creditee name="Jennifer Nakamura"/>
+
+      <CrediteeRole name="GRAPHIC DESIGNERS"/>
+      <Creditee name="Maly Bun"/>
+      <Creditee name="Minna Hu"/>
+      <Creditee name="Jonathan Valiente"/>
+      <Creditee name="Damon Belanger"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="EUROPEAN OPERATIONS">
+      <CrediteeRole name="EUP SUPPLY CHAIN DIRECTOR"/>
+      <Creditee name="Laura Hoegler"/>
+
+      <CrediteeRole name="SR. MANAGER, OPERATIONS AND INVENTORY"/>
+      <Creditee name="Kevin Smith"/>
+
+      <CrediteeRole name="OPERATIONS MANAGER"/>
+      <Creditee name="John Broadbridge"/>
+
+      <CrediteeRole name="PRODUCTION PLANNER"/>
+      <Creditee name="David Monument"/>
+      <Creditee name="Rodney Thistoll"/>
+      <Creditee name="Brandi Baker"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="MARKETING COMMUNICATIONS">
+      <CrediteeRole name="SR. DIRECTOR, MARKETING COMMUNICATIONS"/>
+      <Creditee name="Susan Hallock"/>
+
+      <CrediteeRole name="SR. MANAGER, MARKETING COMMUNICATIONS"/>
+      <Creditee name="Jaime Melton"/>
+
+      <CrediteeRole name="MARKETING COMMUNICATIONS MANAGER"/>
+      <Creditee name="Jill Barry"/>
+
+      <CrediteeRole name="MARKETING COMMUNICATIONS CO-ORDINATOR"/>
+      <Creditee name="Kristina M. Jolly"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="ART SERVICES">
+      <CrediteeRole name="ART SERVICES MANAGER"/>
+      <Creditee name="Todd Pruyn"/>
+
+      <CrediteeRole name="ART SERVICES ASSOCIATE"/>
+      <Creditee name="Ben Szeto"/>
+
+      <CrediteeRole name="ART SERVICES LEAD"/>
+      <Creditee name="Kevin Sandlow"/>
+
+      <CrediteeRole name="ART SERVICES CO-ORDINATOR"/>
+      <Creditee name="David Asadourian"/>
+      <Creditee name="Adam Bava"/>
+      <Creditee name="Randi Cohn"/>
+      <Creditee name="Mike Hunau"/>
+      <Creditee name="Christopher Reinhart"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="BUSINESS DEVELOPMENT">
+      <CrediteeRole name="HEAD OF BUSINESS DEVELOPMENT"/>
+      <Creditee name="Dave Anderson"/>
+
+      <CrediteeRole name="MANAGER, CORPORATE ALLIANCES"/>
+      <Creditee name="Tim Steudler"/>
+      <Creditee name="Yasmine Benyamini"/>
+
+      <CrediteeRole name="ASSOCIATE MANAGER, CORPORATE ALLIANCES"/>
+      <Creditee name="Nikki Pounds"/>
+      
+      <CrediteeRole name="VP, DEVELOPER RELATIONS"/>
+      <Creditee name="Dan Winters"/>
+      
+      <CrediteeRole name="DIRECTOR, DEVELOPER RELATIONS AND ACQUISITIONS"/>
+      <Creditee name="Bob Loya"/>
+    </CreditsGroup>
+      <CreditsGroup displayname="HR">
+      <CrediteeRole name="HR DIRECTOR, EUROPEAN STUDIOS"/>
+      <Creditee name="Kristen Bufalino"/>
+
+      <CrediteeRole name="HR SPECIALIST"/>
+      <Creditee name="Ann Grealy"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="ACTIVISION WOULD LIKE TO THANK:">
+      <Creditee name="Bobby Kotick"/>
+      <Creditee name="Mike Griffith"/>
+      <Creditee name="Ron Doornink"/>
+      <Creditee name="Thomas Tippl"/>
+      <Creditee name="Brian Kelly"/>
+      <Creditee name="Brian Ward"/>
+      <Creditee name="Steve Ackrich"/>
+      <Creditee name="Brian Hodous"/>
+      <Creditee name="Dave Stohl"/>
+      <Creditee name="Maria Stipp"/>
+      <Creditee name="Joerg Trouvain"/>
+      <Creditee name="John Watts"/>
+      <Creditee name="Steve Young"/>
+      <Creditee name="Josh Taub"/>
+      <Creditee name="Laura Hoegler"/>
+      <Creditee name="Jennifer Sullivan"/>
+      <Creditee name="Beverly Liggett"/>
+      <Creditee name="Wade Pottinger"/>
+      <Creditee name="Sean Dexheimer"/>
+      <Creditee name="Dan Schaffer"/>
+      <Creditee name="Molly Hinchey"/>
+      <Creditee name="George Rose"/>
+      <Creditee name="Mary Tuck"/>
+      <Creditee name="Dave Anderson"/>
+      <Creditee name="John Dillulo"/>
+      <Creditee name="Maryanne Lataif"/>
+      <Creditee name="Michelle Schroder"/>
+      <Creditee name="Victor Lopez"/>
+      <Creditee name="Jay Komas"/>
+      <Creditee name="Neil Armstrong"/>
+      <Creditee name="Peter Oey"/>
+      <Creditee name="Steve Wereb"/>
+      <Creditee name="Todd Szalla"/>
+      <Creditee name="Nikunj Dalal"/>
+      <Creditee name="Kathryn Murray"/>
+      <Creditee name="Chris Cosby"/>
+      <Creditee name="Sheilah Brooks"/>
+      <Creditee name="Todd Mueller"/>
+      <Creditee name="Chris Palmisano"/>
+      <Creditee name="Reina Cano"/>
+      <Creditee name="Thomas Eugene Connor Norris"/>
+      <Creditee name="Jost Garrett"/>
+      <Creditee name="Jody Coglianese"/>
+      <Creditee name="Vickie Farmer"/>
+      <Creditee name="Rick Bradley"/>
+      <Creditee name="Anne-Elisa Schaffer"/>
+      <Creditee name="Bruce Hack"/>
+      <Creditee name="Rocco and Bob Loya"/>
+      <Creditee name="Mark Gordon"/>
+      <Creditee name="Kevin and Trinity at Monster/Beats by Dr. Dre"/>
+      <Creditee name="Toby, Matt and Daigo at BAPE"/>
+      <Creditee name="Alex and Eddie at UNDFTD"/>
+    </CreditsGroup>
+  </Company>
+  <Company displayname="REDOCTANE">
+    <CreditsGroup displayname="MANAGEMENT">
+      <CrediteeRole name="PRESIDENT CEO"/>
+      <Creditee name="Dan Rosensweig"/>
+
+      <CrediteeRole name="FOUNDER"/>
+      <Creditee name="Kai Huang"/>
+
+      <CrediteeRole name="FOUNDER/VP, BUSINESS DEVELOPMENT"/>
+      <Creditee name="Charles Huang"/>
+
+      <CrediteeRole name="SR. VICE PRESIDENT, HEAD OF PUBLISHING"/>
+      <Creditee name="Will Kassoy"/>
+
+      <CrediteeRole name="SR. DIRECTOR, REDOCTANE, EUROPE"/>
+      <Creditee name="Michaël Sportouch"/>
+
+      <CrediteeRole name="EUROPEAN SR. BRAND MANAGER"/>
+      <Creditee name="Sian Evans "/>
+
+      <CrediteeRole name="EUROPEAN COMMERCIAL DIRECTOR"/>
+      <Creditee name="Lee Turner"/>
+
+      <CrediteeRole name="EUROPEAN PROJECT MANAGER"/>
+      <Creditee name="Simon Dawes"/>
+
+      <CrediteeRole name="EUROPEAN MARKETING MANAGER"/>
+      <Creditee name="Anders Rinaldo"/>
+
+      <CrediteeRole name="EXECUTIVE ASSISTANT"/>
+      <Creditee name="Trina Deakin"/>
+      <Creditee name="Heather Hatlo Porter"/>
+
+      <CrediteeRole name="LICENSING ASSOCIATE"/>
+      <Creditee name="Chris Larkin"/>
+
+      <CrediteeRole name="SR. VICE PRESIDENT, FINANCE"/>
+      <Creditee name="Brian Kesterson"/>
+
+      <CrediteeRole name="CONTROLLER"/>
+      <Creditee name="Monika Agarwal"/>
+
+      <CrediteeRole name="SR. FINANCIAL ANALYSTS"/>
+      <Creditee name="Kevin Lurie"/>
+      <Creditee name="Lu Truong"/>
+
+      <CrediteeRole name="SR. ACCOUNTANT"/>
+      <Creditee name="Tina Xu"/>
+
+      <CrediteeRole name="SR. MANAGER GLOBAL FREIGHT"/>
+      <Creditee name="Candy Lu"/>
+
+      <CrediteeRole name="GLOBAL SHIPPING PLANNER"/>
+      <Creditee name="Anna Shi"/>
+
+      <CrediteeRole name="NORTH AMERICAN LOGISTICS ANALYST"/>
+      <Creditee name="Scott Yang"/>
+
+      <CrediteeRole name="IT TECH"/>
+      <Creditee name="Paul Clata"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="HARDWARE">
+      <CrediteeRole name="VP HARDWARE"/>
+      <Creditee name="Lee Guinchard"/>
+
+      <CrediteeRole name="EXECUTIVE PRODUCER, HARDWARE"/>
+      <Creditee name="Stephen Withers"/>
+
+      <CrediteeRole name="ELECTRONIC ENGINEERING DIRECTOR"/>
+      <Creditee name="Duncan Miller"/>
+
+      <CrediteeRole name="DIRECTOR OF HARDWARE"/>
+      <Creditee name="Carter Lee"/>
+
+      <CrediteeRole name="HARDWARE PROGRAM DIRECTOR"/>
+      <Creditee name="David Dykes"/>
+
+      <CrediteeRole name="PRINCIPAL ELECTRONICS ENGINEER"/>
+      <Creditee name="Tim Clark"/>
+
+      <CrediteeRole name="SENIOR PRODUCER"/>
+      <Creditee name="Cendru Engstrom"/>
+
+      <CrediteeRole name="PRODUCER OF HARDWARE"/>
+      <Creditee name="Ted Lange"/>
+
+      <CrediteeRole name="PRODUCTION ENGINEERING MANAGER"/>
+      <Creditee name="Jared Chan"/>
+
+      <CrediteeRole name="MECHANICAL ENGINEERING MANAGER"/>
+      <Creditee name="Colin Zen"/>
+
+      <CrediteeRole name="ELECTRONICS ENGINEER MANAGER"/>
+      <Creditee name="Thomas Tan"/>
+
+      <CrediteeRole name="ELECTRONICS ENGINEERS"/>
+      <Creditee name="Bashir Ziady"/>
+      <Creditee name="Bing Xu"/>
+
+      <CrediteeRole name="MECHANICAL ENGINEERS"/>
+      <Creditee name="Music Xu"/>
+      <Creditee name="David Zhu"/>
+
+      <CrediteeRole name="CERTIFICATION MANAGER"/>
+      <Creditee name="Shelly Zhou"/>
+
+      <CrediteeRole name="FIRMWARE ENGINEER"/>
+      <Creditee name="Herman Liu"/>
+
+      <CrediteeRole name="PRODUCT DESIGNER"/>
+      <Creditee name="Cody Lee"/>
+
+      <CrediteeRole name="PRODUCTION CONSULTANT"/>
+      <Creditee name="Chris Foulger"/>
+
+      <CrediteeRole name="HARDWARE PRODUCTION CO-ORDINATORS"/>
+      <Creditee name="Mark Johnson"/>
+      <Creditee name="Raul Renteria"/>
+      <Creditee name="Betty Shang"/>
+      <Creditee name="Casimero Agustin Jr."/>
+
+      <CrediteeRole name="ADMINISTRATOR"/>
+      <Creditee name="June Xier"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="E-COMMERCE">
+      <CrediteeRole name="E-COMMERCE MANAGER"/>
+      <Creditee name="Michael Pan"/>
+
+      <CrediteeRole name="ONLINE MARKETING SPECIALIST"/>
+      <Creditee name="David Hsu"/>
+
+      <CrediteeRole name="E-COMMERCE ASSISTANT"/>
+      <Creditee name="Amanda Amezcua"/>
+      <Creditee name="Hana Sakamoto"/>
+
+      <CrediteeRole name="CUSTOMER SERVICE MANAGER"/>
+      <Creditee name="Joe Mijares"/>
+
+      <CrediteeRole name="CUSTOMER SUPPORT"/>
+      <Creditee name="Mike Dangerfield"/>
+      <Creditee name="Ashley Deakin"/>
+      <Creditee name="Melanie Porzio"/>
+      <Creditee name="Marshannon Powell"/>
+
+      <CrediteeRole name="WEBMASTER"/>
+      <Creditee name="Suky Wong"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="THE REST AT REDOCTANE SPECIFICALLY:">
+      <Creditee name="John Devecka"/>
+      <Creditee name="Swami Venkat"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="REDOCTANE WOULD LIKE TO THANK:">
+      <Creditee name="Lillian Qian"/>
+      <Creditee name="Kaylan Huang"/>
+      <Creditee name="Charley Huang"/>
+      <Creditee name="Jeff Chang"/>
+      <Creditee name="Max Levchin"/>
+      <Creditee name="John Charles"/>
+      <Creditee name="Charley Huang"/>
+      <Creditee name="Tim Chang"/>
+      <Creditee name="Samantha and Ethan Huang"/>
+      <Creditee name="Simon Huang"/>
+      <Creditee name="Lily Huang"/>
+      <Creditee name="Linda Rosensweig"/>
+      <Creditee name="Rachel Rosensweig"/>
+      <Creditee name="Samantha Rosensweig"/>
+      <Creditee name="Harrison Hatlo Porter"/>
+      <Creditee name="Skye Lange"/>
+      <Creditee name="Dream Lange"/>
+      <Creditee name="Dorothy Yang"/>
+      <Creditee name="The Juco Family"/>
+      <Creditee name="MB And GB: Da Bears"/>
+      <Creditee name="The Larkin Family"/>
+      <Creditee name="Freddie Arnott"/>
+      <Creditee name="Grey Hawke"/>
+      <Creditee name="Hunter Watson"/>
+      <Creditee name="Matthew Salutillo"/>
+      <Creditee name="RedOctane India crew"/>
+      <Creditee name="Dennish Goh"/>
+      <Creditee name="Eskander Matta"/>
+      <Creditee name="Tom Knudsen"/>
+      <Creditee name="Matt Crowley"/>
+      <Creditee name="Shirley Lin"/>
+      <Creditee name="The Hsu Family"/>
+    </CreditsGroup>
+  </Company>
+  <Company displayname="QUALITY ASSURANCE">
+    <CreditsGroup displayname="QUALITY ASSURANCE, MANAGEMENT">
+      <CrediteeRole name="VP QUALITY ASSURANCE/CUSTOMER SERVICE"/>
+      <Creditee name="Paul Sterngold"/>
+      <Creditee name="Rich Robinson"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="QUALITY ASSURANCE, FUNCTIONALITY">
+      <CrediteeRole name="QA PROJECT LEAD, DAYSHIFT"/>
+      <Creditee name="Dan Ludwig"/>
+
+      <CrediteeRole name="QA FLOOR LEAD, DAYSHIFT"/>
+      <Creditee name="Chris Staples"/>
+      <Creditee name="Derrick Davis"/>
+
+      <CrediteeRole name="QA TESTERS"/>
+      <Creditee name="Reyronald Pineda"/>
+      <Creditee name="Chan Sem"/>
+      <Creditee name="Linh Nguyen"/>
+      <Creditee name="Christian Tincher"/>
+      <Creditee name="Dominick Werckle"/>
+      <Creditee name="Rodrigo Ayres"/>
+      <Creditee name="George Garcia"/>
+      <Creditee name="Mike Spragg"/>
+      <Creditee name="Sam Garles"/>
+      <Creditee name="Jonathan Rentas"/>
+      <Creditee name="Brandon Regueiro"/>
+      <Creditee name="Felipe Benaides"/>
+      <Creditee name="Joseph Mora"/>
+      <Creditee name="Britney Whiten"/>
+      <Creditee name="Anthony Tracey"/>
+      <Creditee name="Casey Merrell"/>
+      <Creditee name="Jennifer Frei"/>
+      <Creditee name="Ramin Sharifi"/>
+      <Creditee name="Dustin Luke"/>
+      <Creditee name="Mike Arden"/>
+      <Creditee name="Scott McPherson"/>
+      <Creditee name="Joseph Ocampo"/>
+      <Creditee name="Kyle Bosman"/>
+      <Creditee name="Brandon Rojo"/>
+      <Creditee name="Chris Iffrig"/>
+
+      <CrediteeRole name="QA SENIOR PROJECT LEAD"/>
+      <Creditee name="Paul Williams"/>
+
+      <CrediteeRole name="QA MANAGER"/>
+      <Creditee name="Jason Levine"/>
+
+      <CrediteeRole name="QA PROJECT LEAD, NIGHTSHIFT"/>
+      <Creditee name="Tiffany Beh-John Asghary"/>
+
+      <CrediteeRole name="QA FLOOR LEAD, NIGHTSHIFT"/>
+      <Creditee name="Jaime Segovia"/>
+      <Creditee name="Yong “Jay” Pak"/>
+
+      <CrediteeRole name="QA TESTERS, NIGHTSHIFT"/>
+      <Creditee name="Dee Gibson"/>
+      <Creditee name="Bradon Miller"/>
+      <Creditee name="Isara “Jay” Nareesrisawatdi"/>
+      <Creditee name="Justin Abrams"/>
+      <Creditee name="Domenique Pineda"/>
+      <Creditee name="Matthew Loewenstein"/>
+      <Creditee name="Michael Akins"/>
+      <Creditee name="Ryan Ernest"/>
+      <Creditee name="Joemar Bilog"/>
+      <Creditee name="Robert Saccente"/>
+      <Creditee name="Denny Barnes"/>
+      <Creditee name="Carldren Knight"/>
+      <Creditee name="Justin Huthmacher"/>
+      <Creditee name="Hugo “Juice” Felix"/>
+      <Creditee name="James “Jim” Burzelic"/>
+      <Creditee name="Anthony Bosco"/>
+
+      <CrediteeRole name="QA SENIOR PROJECT LEAD"/>
+      <Creditee name="Frank So"/>
+
+      <CrediteeRole name="QA MANAGER, NIGHTSHIFT"/>
+      <Creditee name="Adam Hartsfield"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="TECHNICAL REQUIREMENTS GROUP">
+      <CrediteeRole name="DIRECTOR, QA"/>
+      <Creditee name="Christopher Wilson"/>
+
+      <CrediteeRole name="TRG MANAGER"/>
+      <Creditee name="John Rosser"/>
+
+      <CrediteeRole name="TRG SUBMISSIONS LEADS"/>
+      <Creditee name="Daniel L. Nichols"/>
+      <Creditee name="Christopher Norman"/>
+
+      <CrediteeRole name="TRG SUBMISSIONS ADJUTANT"/>
+      <Creditee name="Dustin Carter"/>
+
+      <CrediteeRole name="TRG SENIOR PLATFORM LEADS"/>
+      <Creditee name="Marc Villanueva"/>
+      <Creditee name="Teak Holley"/>
+      <Creditee name="Sasan Helmi"/>
+      <Creditee name="Todd Sutton"/>
+      <Creditee name="Kyle Carey"/>
+      <Creditee name="Jason Harris"/>
+
+      <CrediteeRole name="TRG PLATFORM LEADS"/>
+      <Creditee name="James Rose"/>
+      <Creditee name="Jared Baca"/>
+      <Creditee name="Benjamin Abel"/>
+      <Creditee name="Eric Stanzione"/>
+      <Creditee name="Zac Blitz"/>
+      <Creditee name="Menas Kapitsas"/>
+      <Creditee name="Paul Carrion"/>
+      <Creditee name="Brian Bensi"/>
+      <Creditee name="Tomo Shikami"/>
+
+      <CrediteeRole name="TRG TESTERS"/>
+      <Creditee name="Alex Tomasino"/>
+      <Creditee name="Daniel Fehskens"/>
+      <Creditee name="Gary Rojas"/>
+      <Creditee name="Lan Sha"/>
+      <Creditee name="Michael Laursen"/>
+      <Creditee name="Patrick De Palma"/>
+      <Creditee name="Peter Cho"/>
+      <Creditee name="Phil Lawless"/>
+      <Creditee name="Randall Lutcavich"/>
+      <Creditee name="Steven Lin"/>
+      <Creditee name="Vincent Ju"/>
+      <Creditee name="Anthony Bellisario"/>
+      <Creditee name="Brent Gothold"/>
+      <Creditee name="Celeb Huddleston"/>
+      <Creditee name="Christopher McCardle"/>
+      <Creditee name="Demetrius Hoston"/>
+      <Creditee name="Ian Pilcher"/>
+      <Creditee name="Jennifer Goodman"/>
+      <Creditee name="Justin Schriefer"/>
+      <Creditee name="Kyle Robbins"/>
+      <Creditee name="Lacy Crawford-Witkos"/>
+      <Creditee name="Mike Juarez"/>
+      <Creditee name="Paco Erskine"/>
+      <Creditee name="Todd Baron"/>
+      <Creditee name="Zachary Blough"/>
+      <Creditee name="Alex Hirsch"/>
+      <Creditee name="Brandon Miller"/>
+      <Creditee name="Ciji Thornton"/>
+      <Creditee name="Edger Sunga"/>
+      <Creditee name="Jason Garza"/>
+      <Creditee name="Jessica Eckstein"/>
+      <Creditee name="Jonathan Butcher"/>
+      <Creditee name="Josue Medina"/>
+      <Creditee name="Laurence Silva"/>
+      <Creditee name="Mark Ruzicka"/>
+      <Creditee name="Pisoth Chham"/>
+      <Creditee name="Rhonda Cox"/>
+      <Creditee name="Richard Tom"/>
+      <Creditee name="Santiago Salvador"/>
+      <Creditee name="Brian Baker"/>
+      <Creditee name="Keith Kodama"/>
+      <Creditee name="Colin Kawakami"/>
+      <Creditee name="Stefan Goodreau"/>
+      <Creditee name="John McCurry"/>
+      <Creditee name="Kirt Sanchez"/>
+      <Creditee name="Melvin Allen"/>
+      <Creditee name="Scott Borakove"/>
+      <Creditee name="Bryan Papa"/>
+      <Creditee name="Eddie Fernando Araujo"/>
+      <Creditee name="Jeff Koyama"/>
+      <Creditee name="Joe Pardo"/>
+      <Creditee name="Justin Gogue"/>
+      <Creditee name="Lucas Goodman"/>
+      <Creditee name="Tomer Mor"/>
+      <Creditee name="Steve Mcilroy"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="QA NETWORK LAB">
+      <CrediteeRole name="MANAGER, QA OPERATIONS"/>
+      <Creditee name="Chris Keim"/>
+
+      <CrediteeRole name="QA NETWORK LAB SENIOR PROJECT LEAD"/>
+      <Creditee name="Francis Jimenez"/>
+
+      <CrediteeRole name="QA NETWORK LAB PROJECT LEADS"/>
+      <Creditee name="Leonard Rodriguez"/>
+      <Creditee name="Jessie Jones"/>
+
+      <CrediteeRole name="QA NETWORK LAB TESTER"/>
+      <Creditee name="Bryan Chice"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="QA-OEM GROUP">
+      <CrediteeRole name="QA-OEM SENIOR PROJECT LEAD"/>
+      <Creditee name="James Lara"/>
+
+      <CrediteeRole name="QA-OEM TESTERS"/>
+      <Creditee name="Brian Post"/>
+      <Creditee name="Giancarlo Contreras"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="QA MULTIPLAYER LAB">
+      <CrediteeRole name="QA MPL LEAD"/>
+      <Creditee name="Garrett Oshiro"/>
+
+      <CrediteeRole name="QA MPL LAB SENIOR TESTER"/>
+      <Creditee name="Shamen'e Childress"/>
+
+      <CrediteeRole name="QA MPL ACTING FLOOR LEADS AND TESTERS"/>
+      <Creditee name="Julio Medina"/>
+      <Creditee name="Bobby Jones"/>
+      <Creditee name="Jaemin Kang"/>
+      <Creditee name="Matt Fawbush"/>
+      <Creditee name="Brian Lay"/>
+      <Creditee name="John Getty"/>
+      <Creditee name="Matt Brannon"/>
+      <Creditee name="Travis Otten"/>
+      <Creditee name="Bruce James"/>
+      <Creditee name="Nick Gram"/>
+      <Creditee name="Mario Ibarra"/>
+      <Creditee name="Jon Bunch"/>
+      <Creditee name="Jason Komen"/>
+      <Creditee name="Richard Salmon"/>
+      <Creditee name="Mikey Ackland"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="QA AUDIO VISUAL LAB">
+      <CrediteeRole name="QA AVL PROJECT LEAD"/>
+      <Creditee name="Victor Durling"/>
+
+      <CrediteeRole name="QA AVL SENIOR TESTER"/>
+      <Creditee name="Cliff Hooper"/>
+
+      <CrediteeRole name="QA AVL TESTERS"/>
+      <Creditee name="Delven Rutledge"/>
+      <Creditee name="Ryan Visteen"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="QA MASTERING LAB">
+      <CrediteeRole name="MASTERING LAB SUPERVISOR"/>
+      <Creditee name="John Donnelly"/>
+
+      <CrediteeRole name="SENIOR MASTERING LAB TECHNICIAN"/>
+      <Creditee name="Sean Kim"/>
+
+      <CrediteeRole name="MASTERING LAB TECHNICIANS"/>
+      <Creditee name="Danny Feng"/>
+      <Creditee name="Kai Hsu"/>
+      <Creditee name="Sean Kim"/>
+      <Creditee name="Rodrigo Magana"/>
+      <Creditee name="Gary Washington"/>
+      <Creditee name="Tyree Deramus"/>
+      <Creditee name="Douglas Hernandez"/>
+      <Creditee name="Jose Hernandez"/>
+      <Creditee name="Steven Rodriguez"/>
+      <Creditee name="Leejay Ronquillo"/>
+      <Creditee name="Orbel Shakhmalian"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="QA-MIS">
+      <CrediteeRole name="SENIOR MANAGER, QA TECHNOLOGIES"/>
+      <Creditee name="Indra Yee"/>
+
+      <CrediteeRole name="QA-MIS MANAGER"/>
+      <Creditee name="Dave Garcia-Gomez"/>
+
+      <CrediteeRole name="QA-MIS TECHNICIANS"/>
+      <Creditee name="Teddy Hwang"/>
+      <Creditee name="Brian Martin"/>
+      <Creditee name="Jeremy Torres"/>
+      <Creditee name="Lawrence Wei"/>
+      <Creditee name="Chris Gill"/>
+
+      <CrediteeRole name="TECHNOLOGY TECHNICIAN"/>
+      <Creditee name="Sean Olson"/>
+
+      <CrediteeRole name="QA-MIS EQUIPMENT COORDINATORS"/>
+      <Creditee name="Long Le"/>
+      <Creditee name="Coleman Thaxton III"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="QA DATABASE ADMINISTRATION GROUP">
+      <CrediteeRole name="SENIOR LEAD DATABASE ADMINISTRATOR"/>
+      <Creditee name="Jeremy Richards"/>
+
+      <CrediteeRole name="LEAD DATABASE ADMINISTRATOR"/>
+      <Creditee name="Kelly Huffine"/>
+
+      <CrediteeRole name="DATABASE TECHNICIANS"/>
+      <Creditee name="Timothy Toledo"/>
+      <Creditee name="Christopher Shanley"/>
+
+      <CrediteeRole name="DBS SENIOR TESTER"/>
+      <Creditee name="Wayne Williams"/>
+
+      <CrediteeRole name="DBS TESTERS"/>
+      <Creditee name="Dennis Soh"/>
+      <Creditee name="Randi Williams-Pardo"/>
+      <Creditee name="Chris Kilian"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="QA OPERATIONS GROUP">
+      <CrediteeRole name="DIRECTOR, QA OPERATIONS"/>
+      <Creditee name="George Viegas"/>
+
+      <CrediteeRole name="OPERATIONS AND PLANNING SUPERVISOR"/>
+      <Creditee name="Jeremy Shortell"/>
+
+      <CrediteeRole name="OPERATIONS ASSOCIATE"/>
+      <Creditee name="Paul Colbert"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="CUSTOMER SUPPORT MANAGERS">
+      <CrediteeRole name="PHONE SUPPORT"/>
+      <Creditee name="Gary Bolduc"/>
+
+      <CrediteeRole name="E-MAIL SUPPORT"/>
+      <Creditee name="Michael Hill"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="QA WOULD LIKE TO THANK:">
+      <Creditee name="Abby Alvarez"/>
+      <Creditee name="Nuria Andres"/>
+      <Creditee name="Brian Carlson"/>
+      <Creditee name="Michael Clarke"/>
+      <Creditee name="Randolph d'Amore"/>
+      <Creditee name="Tiffany Beh-John Asghary"/>
+      <Creditee name="Tim Shanks"/>
+      <Creditee name="Seth d'Amore"/>
+      <Creditee name="Maria Gonzalez"/>
+      <Creditee name="Sofia Hadjeri"/>
+      <Creditee name="Rachel Overton"/>
+      <Creditee name="Dylan Rixford"/>
+      <Creditee name="Tracy Sheppard"/>
+      <Creditee name="Jacqueline Jolie Sheltmire"/>
+      <Creditee name="Nadine Theuzillot"/>
+      <Creditee name="Jennifer Vitiello"/>
+      <Creditee name="Marc Williams"/>
+      <Creditee name="Glenn Vistante"/>
+      <Creditee name="Henry Villanueva"/>
+      <Creditee name="John Rosser"/>
+      <Creditee name="Jessica Williams"/>
+      <Creditee name="Chani Harper"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="PRODUCTION SERVICES EUROPE">
+      <CrediteeRole name="SENIOR DIRECTOR"/>
+      <Creditee name="Barry Kehoe"/>
+
+      <CrediteeRole name="LOCALISATION MANAGER"/>
+      <Creditee name="Fiona Ebbs"/>
+
+      <CrediteeRole name="LOCALISATION PROJECT MANAGER"/>
+      <Creditee name="Conor Harlow"/>
+
+      <CrediteeRole name="LOCALISATION CO-ORDINATORS"/>
+      <Creditee name="Nelly Bergman"/>
+      <Creditee name="David Gaynor"/>
+
+      <CrediteeRole name="LOCALISATION QA MANAGER"/>
+      <Creditee name="David Hickey"/>
+
+      <CrediteeRole name="LOCALISATION QA ASSISTANT MANAGER"/>
+      <Creditee name="Yvonne Costello"/>
+
+      <CrediteeRole name="LOCALISATION QA LEAD"/>
+      <Creditee name="Carlos Losada Baena"/>
+
+      <CrediteeRole name="LOCALISATION QA FLOOR LEAD"/>
+      <Creditee name="Dimitri Baubooa"/>
+
+      <CrediteeRole name="LOCALISATION QA TESTERS"/>
+      <Creditee name="Marcus Strehlow"/>
+      <Creditee name="Therese Andersson"/>
+      <Creditee name="Florent Parage"/>
+      <Creditee name="Gregory Messmer"/>
+      <Creditee name="Frederic Sitjas"/>
+      <Creditee name="Loic Moisan"/>
+      <Creditee name="Julien Le Colloec"/>
+      <Creditee name="Giovanni Peroni"/>
+      <Creditee name="Alberto Gilli"/>
+      <Creditee name="Nicola Spera"/>
+      <Creditee name="Franco Contessa"/>
+      <Creditee name="Victor Vega"/>
+      <Creditee name="Jone Ordoño Olabarrieta"/>
+      <Creditee name="Arturo Garcia Rodriguez"/>
+      <Creditee name="John Bonham"/>
+      <Creditee name="Shane Kerr"/>
+
+      <CrediteeRole name="BURN LAB TECHNICIANS"/>
+      <Creditee name="Todd Lambert"/>
+      <Creditee name="David Dawson"/>
+
+      <CrediteeRole name="IT NETWORK TECHNICIAN"/>
+      <Creditee name="Fergus Lindsay"/>
+
+      <CrediteeRole name="LOCALISATION TOOLS AND SUPPORT"/>
+      <Creditee name="Provided by Stephanie Deming AND XLOC, inc"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="DJ ARMY">
+      <Creditee name="Justin Abrams"/>
+      <Creditee name="Mike Akins"/>
+      <Creditee name="Kyle Bosman"/>
+      <Creditee name="Dustin Luke"/>
+      <Creditee name="Bradon Miller"/>
+      <Creditee name="Isara “Jay” Nareesrisawatdi"/>
+      <Creditee name="Yong “Jay” Pak"/>
+      <Creditee name="Brandon Rojo"/>
+      <Creditee name="Chan Sem"/>
+      <Creditee name="Ramin Sharifi"/>
+    </CreditsGroup>
+  </Company>
+  <Company displayname="ADDITIONAL SUPPORT">
+    <CreditsGroup displayname="CREATIVE CONSULTANT">
+      <CrediteeRole name="DJ SHADOW"/>
+	</CreditsGroup>
+    <CreditsGroup displayname="SHABA GAMES">
+      <CrediteeRole name="STUDIO HEAD"/>
+      <Creditee name="Chris Scholz"/>
+
+      <CrediteeRole name="DEVELOPMENT DIRECTOR"/>
+      <Creditee name="Burke Drane"/>
+
+      <CrediteeRole name="PROGRAMMING"/>
+      <Creditee name="Robert Morgan"/>
+      <Creditee name="Russell Borogove"/>
+      <Creditee name="Kaitlyn Burnell"/>
+      <Creditee name="Mike Hough"/>
+      <Creditee name="Jeff Lowe"/>
+      <Creditee name="Eugene Massey"/>
+      <Creditee name="Houman Meshkin"/>
+      <Creditee name="Steven Toh"/>
+      <Creditee name="Naveen Vemuri"/>
+      <Creditee name="David Wright"/>
+      <Creditee name="Andy Yelland"/>
+
+      <CrediteeRole name="AUDIO"/>
+      <Creditee name="Rev. Dr. Bradley D. Meyer"/>
+      <Creditee name="Jason Clark"/>
+      <Creditee name="Lorien Ferris"/>
+
+      <CrediteeRole name="PRODUCTION"/>
+      <Creditee name="Tamsen Mitchell"/>
+      <Creditee name="Jason Nishino"/>
+      <Creditee name="Damon Redmond"/>
+      <Creditee name="Robert Smith"/>
+
+      <CrediteeRole name="VISUAL ARTS"/>
+      <Creditee name="Scott Werner"/>
+      <Creditee name="Alessandro Briglia"/>
+      <Creditee name="Doreen Delgado"/>
+      <Creditee name="Bradley Fulton"/>
+      <Creditee name="Sam Greer"/>
+      <Creditee name="Alex Mathis"/>
+      <Creditee name="Vincent Riley"/>
+
+      <CrediteeRole name="DESIGN"/>
+      <Creditee name="Rick D’Aloisio"/>
+      <Creditee name="Shaheed Khan"/>
+      <Creditee name="Jeff Wood"/>
+
+      <CrediteeRole name="QUALITY ASSURANCE"/>
+      <Creditee name="Richard Hartzell"/>
+      <Creditee name="Larry Teeney"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="DEMONWARE">
+      <Creditee name="Nadia Alramli"/>
+      <Creditee name="David “Respawn” Brennan"/>
+      <Creditee name="Morgan Brickley"/>
+      <Creditee name="Luke Burden"/>
+      <Creditee name="Aaron Burt"/>
+      <Creditee name="David Cahill"/>
+      <Creditee name="Michael Collins"/>
+      <Creditee name="Tim Czerniak"/>
+      <Creditee name="Brendan Dillon"/>
+      <Creditee name="Malcolm Dowse"/>
+      <Creditee name="Paul Froese"/>
+      <Creditee name="Eoghan Gaffney"/>
+      <Creditee name="Arthur Green"/>
+      <Creditee name="Padraic Hallinan"/>
+      <Creditee name="Steffen Higel"/>
+      <Creditee name="Tony Kelly"/>
+      <Creditee name="John Kirk"/>
+      <Creditee name="Lance Laursen"/>
+      <Creditee name="Craig McInnes"/>
+      <Creditee name="Sergey Melnykov"/>
+      <Creditee name="Eoin O’Fearghail"/>
+      <Creditee name="Byron Pile"/>
+      <Creditee name="Ruaidhrí Power"/>
+      <Creditee name="Francesco Riggi"/>
+      <Creditee name="Tilman Schäfer"/>
+      <Creditee name="Amy Smith"/>
+      <Creditee name="Emmanuel Stone"/>
+      <Creditee name="Jason Wei"/>
+      <Creditee name="Peter Wright"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="TREYARCH">
+	  <CrediteeRole name="PROGRAMMING"/>
+      <Creditee name="Tommy Keegan"/>
+      <Creditee name="Bharathwaj “Bat” Nandakumar"/>
+      <Creditee name="Ewan Oughton"/>
+    </CreditsGroup>
+    </Company>
+  <Company displayname="ADDITIONAL AUDIO">
+    <CreditsGroup displayname="DA INDUSTRIES">
+      <CrediteeRole name="MUSIC PRODUCTION CONSULTANTS"/>
+      <Creditee name="Co Shah (Dope Ammo)"/>
+      <Creditee name="Piers Baron"/>
+      <Creditee name="Benny Page (Digital Soundboy)"/>
+
+      <CrediteeRole name="MUSIC PRODUCTION ASSISTANTS"/>
+      <Creditee name="Frank Farell"/>
+      <Creditee name="Nev Scott"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="SOUNDELUX DESIGN MUSIC GROUP">
+      <CrediteeRole name="SOUND SUPERVISOR"/>
+      <Creditee name="Shannon Potter"/>
+
+      <CrediteeRole name="SOUND DESIGN"/>
+      <Creditee name="Dror Mohar"/>
+      <Creditee name="Karen Vassar"/>
+      <Creditee name="Mark Camperall"/>
+
+      <CrediteeRole name="CROWD RECORDING DONE AT"/>
+      <Creditee name="Capitol Records "/>
+
+      <CrediteeRole name="CROWD CONCEPT AND VOCAL DIRECTING"/>
+      <Creditee name="Scott Martin Gershin"/>
+
+      <CrediteeRole name="RECORDISTS"/>
+      <Creditee name="Mark Ormandy"/>
+      <Creditee name="Charlie Compagna"/>
+
+      <CrediteeRole name="ENGINEER"/>
+      <Creditee name="Charlie Paakkari"/>
+
+      <CrediteeRole name="ASSISTANT ENGINEER"/>
+      <Creditee name="Paul Smith"/>
+
+      <CrediteeRole name="PRO TOOLS OPERATOR"/>
+      <Creditee name="Chad Bedell"/>
+
+      <CrediteeRole name="ASSET COORDINATORS"/>
+      <Creditee name="Charles Gondak"/>
+      <Creditee name="Eliot Conners"/>
+      <Creditee name="Brian Petterson"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="TUTORIAL VOICEOVER">
+      <Creditee name="Grandmaster Flash"/>
+    </CreditsGroup>
+  </Company>
+  <Company displayname="MOTION CAPTURE">
+    <CreditsGroup displayname="PRODUCTION">
+      <Creditee name="Motion capture supplied by Audio Motion Ltd."/>
+    </CreditsGroup>
+    <CreditsGroup displayname="MOTION CAPTURE TALENT">
+      <Creditee name="DJ Abrantee"/>
+      <Creditee name="Anneka Dacres"/>
+      <Creditee name="Charlotte Habib"/>
+      <Creditee name="Christopher Hatherhall"/>
+      <Creditee name="Dawson James"/>
+      <Creditee name="Jay Revell"/>
+      <Creditee name="Justin Tan"/>
+      <Creditee name="Matthew Stirling"/>
+      <Creditee name="Maya Medvesek"/>
+      <Creditee name="Megan Jones"/>
+      <Creditee name="Viv Weatherall"/>
+    </CreditsGroup>
+  </Company>
+  <Company displayname="INTRO CINEMATIC">
+    <CreditsGroup displayname="FRAMESTORE">
+      <CrediteeRole name="VFX SUPERVISOR"/>
+      <Creditee name="Diarmid Harrison Murray"/>
+
+      <CrediteeRole name="EXECUTIVE PRODUCER"/>
+      <Creditee name="Simon Whalley"/>
+
+      <CrediteeRole name="DIGITAL PRODUCER"/>
+      <Creditee name="Mike Woods"/>
+
+      <CrediteeRole name="SENIOR PRODUCER"/>
+      <Creditee name="Sarah Hiddlestone"/>
+
+      <CrediteeRole name="ANIMATION LEADS"/>
+      <Creditee name="Nicklas Andersson"/>
+      <Creditee name="Mike Mellor"/>
+
+      <CrediteeRole name="FX LEAD"/>
+      <Creditee name="Martin Aufinger"/>
+
+      <CrediteeRole name="RIGGING / CLOTH"/>
+      <Creditee name="James Healy"/>
+
+      <CrediteeRole name="LEAD MODELLING"/>
+      <Creditee name="Alexander Doyle"/>
+
+      <CrediteeRole name="ANIMATION"/>
+      <Creditee name="Alexander Damm"/>
+      <Creditee name="Andrew Silke"/>
+      <Creditee name="Fredrik Lindbom"/>
+      <Creditee name="Santi Colomo"/>
+      <Creditee name="Tomas Tjernberg"/>
+
+      <CrediteeRole name="TECHNICAL DIRECTION"/>
+      <Creditee name="Dan Seddon"/>
+      <Creditee name="Henry Vanerbeek"/>
+      <Creditee name="James Healy"/>
+      <Creditee name="Jamie Stewart"/>
+      <Creditee name="Mary Swinnerton"/>
+      <Creditee name="Michele Fabbro"/>
+      <Creditee name="Mikael Widegren"/>
+      <Creditee name="Oliver Fergusson Taylor"/>
+      <Creditee name="Adrian Lee"/>
+      <Creditee name="Paul Denhard"/>
+      <Creditee name="Paul Jones"/>
+      <Creditee name="Pol Chanthasartratsarmee"/>
+      <Creditee name="Richard Coley"/>
+      <Creditee name="Rhys Pugh"/>
+      <Creditee name="Drago Stefan"/>
+      <Creditee name="Robert Kolbeins"/>
+      
+      <CrediteeRole name="COMPOSITE"/>
+      <Creditee name="Russell Dodgson"/>
+      <Creditee name="Adam Rowland"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="WARP FILMS">
+      <CrediteeRole name="DIRECTED BY"/>
+      <Creditee name="Marco Puig"/>
+
+      <CrediteeRole name="PRODUCED FOR WARP FILMS BY"/>
+      <Creditee name="Diarmid Scrimshaw"/>
+
+      <CrediteeRole name="EDITOR"/>
+      <Creditee name="Simon Hargood"/>
+
+      <CrediteeRole name="SOUND"/>
+      <Creditee name="Pepper Sound "/>
+    </CreditsGroup>
+  </Company>
+  <Company displayname="EXTERNAL QA">
+    <CreditsGroup displayname="TESTOLOGY LTD.">
+      <CrediteeRole name="MD TESTOLOGY LTD."/>
+      <Creditee name="Andy Robson"/>
+
+      <CrediteeRole name="TEAM LEADS"/>
+      <Creditee name="Justin Amore"/>
+      <Creditee name="John Lamplugh"/>
+      <Creditee name="Steve Alves"/>
+      <Creditee name="Kevin Watt"/>
+
+      <CrediteeRole name="ASSISTANT TEAM LEADS"/>
+      <Creditee name="Scott Charles"/>
+      <Creditee name="Neil Barrett"/>
+      <Creditee name="Julia Brown"/>
+
+      <CrediteeRole name="TESTERS"/>
+      <Creditee name="Craig Gilbert-Wood"/>
+      <Creditee name="Mark Maniscalchi"/>
+      <Creditee name="Matthew James Spencer"/>
+      <Creditee name="Rob Leake"/>
+      <Creditee name="Yahsir Qureshi"/>
+      <Creditee name="Steve Alves"/>
+      <Creditee name="Rob Brewerton"/>
+      <Creditee name="Lewis Parsons"/>
+      <Creditee name="Michael Withers"/>
+      <Creditee name="Mike Pedlingham"/>
+      <Creditee name="Kristian Wilkins"/>
+      <Creditee name="Gareth Bourn"/>
+      <Creditee name="James Brook"/>
+      <Creditee name="Harrison Baker"/>
+      <Creditee name="Vytautas Markuckas"/>
+    </CreditsGroup>
+  </Company>
+  <Company displayname="MIXES AND SAMPLE PACKS PRESENTED BY">
+      <CreditsGroup displayname="CUT CHEMIST">
+      <Creditee name="Beastie Boys, Lee Majors Come Again - Daft Punk, Da Funk"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="DJ AM">
+      <Creditee name="Beastie Boys, Intergalactic - Bell Biv Devoe, Poison"/>
+      <Creditee name="Gwen Stefani, Hollaback Girl - InDeep, Last Night A DJ Saved My Life"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="DJ JAZZY JEFF">
+      <Creditee name="LL Cool J, Rock The Bells - The Aranbee Pop Orchestra, Bittersweet Symphony (Instrumental)"/>
+      <Creditee name="Tears For Fears, Shout - Eric B. And Rakim, Eric B. Is President"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="DJ SHADOW">
+      <Creditee name="The Zombies, Time Of The Season - Chuck Brown And The Soul Searchers, Bustin' Loose"/>
+      <Creditee name="David Bowie, Let's Dance - Boogie Down Productions, Jack Of Spades"/>
+      <Creditee name="Beastie Boys, Here’s a Little Something For Ya - DJ Shadow, The Number Song (2009 Version)"/>
+    </CreditsGroup>
+     <CreditsGroup displayname="DJ YODA">
+      <Creditee name="Jackson 5, I Want You Back - Gang Starr, Just To Get A Rep"/>
+      <Creditee name="Little Richard, Tutti Fruitti - Shlomo, Beatbox"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="DJ Z-TRIP">
+      <Creditee name="Beastie Boys, Brass Monkey - Queen, Another One Bites The Dust"/>
+      <Creditee name="Public Enemy ft. Zakk Wylde, Bring The Noize 20XX - Justice, Genesis"/>
+      <Creditee name="Foreigner, Jukebox Hero - DJ Z-Trip ft. Murs, DJ Hero"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="GRANDMASTER FLASH">
+      <Creditee name="Grandmaster Flash, DJ Kool, DJ Demo, Here Comes My DJ - Gary Numan, Cars"/>
+      <Creditee name="Herbie Hancock, Rockit - N.E.R.D., Lapdance"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="J. PERIOD">
+      <Creditee name="Mobb Deep, Shook Ones, Pt. 2 - Gang Starr, Just To Get A Rep"/>
+      <Creditee name="Billy Squier, The Big Beat - Q-Tip, Good Thang"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="SCRATCH PERVERTS">
+      <Creditee name="Noisia, Groundhog"/>
+      <Creditee name="Eric B. And Rakim, Eric B. Is President - M.I.A., Paper Planes"/>
+      <Creditee name="Common, Universal Mind Control (UMC) - Masta Ace, Jeep A** Gutter (Aaron LaCrate And Debonair Samir RMX)"/>
+      <Creditee name="Daft Punk, Robot Rock - Hasim, Al Naafyish (The Soul)"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="FLAVOR FLAV">
+      <Creditee name="Flavor Flav Sample Packs"/>
+    </CreditsGroup>
+     <CreditsGroup displayname="PAVEL DOUGLAS">
+      <Creditee name="Posh Sample Pack"/>
+    </CreditsGroup>
+    <CreditsGroup displayname="NATALIA SCOTT AKA MC TALI">
+      <Creditee name="MC Tali Sample Packs"/>
+    </CreditsGroup>
+  </Company>
+  <Company displayname="MUSIC">
+<CreditsGroup displayname="“Ace Of Spades”">
+<Creditee name="Performed by Motörhead"/>
+<Creditee name="Written by Ian Kilmister, Eddie Clarke and Philip Taylor"/>
+<Creditee name="Published by EMI Intertrax Music Inc."/>
+<Creditee name="Courtesy of EMI Music Publishing"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Ain’t No Love In The Heart of The City”">
+<Creditee name="Performed by Bobby “Blue” Bland"/>
+<Creditee name="Written by Harvey Price and Dan Walsh"/>
+<Creditee name="Published by Universal Music Corp."/>
+<Creditee name="Courtesy of Geffen Records under license from Universal Music Enterprises"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Al Naafyish (The Soul)”">
+<Creditee name="Performed by Hashim"/>
+<Creditee name="Written by Gerald C Calliste Jr."/>
+<Creditee name="Published by Cutting Records Music"/>
+<Creditee name="Courtesy of Cutting Records, Inc."/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“All Eyez on Me”">
+<Creditee name="Performed by 2Pac"/>
+<Creditee name="Written by Tyruss Gerald Himes, Johnny Lee Jackson, James P Pennington and Tupac Amaru Shakur"/>
+<Creditee name="Published by Universal Music Corp. o/b/o itself and Joshua’s Dream Music / Universal Music – Z Tunes LLC o/b/o itself and Imperial Loco Entertainment / Universal Music – MGB Songs / Universal Music - Careers"/>
+<Creditee name="(P) 1996.  Courtesy of Wide Awake - Death Row Entertainment LLC o/b/o Wide Awake Entertainment Group, Inc."/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Annie’s Horn”">
+<Creditee name="Performed by D-Code"/>
+<Creditee name="Written by D. Dhanjal"/>
+<Creditee name="Published by Copyright Control"/>
+<Creditee name="Courtesy of Shiva Soundsystem Recordings"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Another One Bites The Dust”">
+<Creditee name="Performed by Queen"/>
+<Creditee name="Written by John Deacon"/>
+<Creditee name="Published by Beechwood Music Corp."/>
+<Creditee name="Courtesy of Hollywood Records and EMI Records Ltd."/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Around The World”">
+<Creditee name="Performed by Daft Punk"/>
+<Creditee name="Written by Thomas Bangalter and Guy-Manuel de Homem-Christo"/>
+<Creditee name="Published by Universal Music - Z Songs o/b/o Imagem London Ltd."/>
+<Creditee name="Courtesy of Daft Trax under license to EMI Music France"/>
+<Creditee name="Under license from EMI Film and Television Music"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Atomic”">
+<Creditee name="Performed by Blondie"/>
+<Creditee name="Written by Deborah Harry and Jimmy Destri"/>
+<Creditee name="Published by Chrysalis Music o/b/o itself and Monster Island Music Publishing Corp. (ASCAP)"/>
+<Creditee name="Courtesy of Capitol Records"/>
+<Creditee name="Under license from EMI Film and Television Music"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Beverly Hills”">
+<Creditee name="Performed by Weezer"/>
+<Creditee name="Written by Rivers Cuomo"/>
+<Creditee name="Published by E.O. Smith Music"/>
+<Creditee name="Courtesy of Geffen Records under license from Universal Music Enterprises"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“The Big Beat”">
+<Creditee name="Performed by Billy Squier"/>
+<Creditee name="Written by Billy Squier"/>
+<Creditee name="Published by Spirit Two Music, Inc. o/b/o Songs Of The Knight"/>
+<Creditee name="Courtesy of Capitol Records"/>
+<Creditee name="Under license from EMI Film and Television Music"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Bittersweet Symphony” (Instrumental)">
+<Creditee name="Performed by The Aranbee Pop Orchestra"/>
+<Creditee name="Written by Mick Jagger and Keith Richards"/>
+<Creditee name="Published by ABKCO Music, Inc."/>
+<Creditee name="Courtesy of ABKCO Music and Records, Inc."/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Boom Boom Pow”">
+<Creditee name="Performed by Black Eyed Peas"/>
+<Creditee name="Written by Will Adams, Stacy Ferguson, Jaime Gomez and Allan Pineda"/>
+<Creditee name="Published by Headphone Junkie Publishing administered by EMI April Music Inc. and Will.I.Am Music Inc., Jeepney Music Publishing and Nawasha Networks"/>
+<Creditee name="Publishing administered by Cherry Lane Music Publishing"/>
+<Creditee name="Courtesy of Interscope Records under license from Universal Music Enterprises"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Brass Monkey”">
+<Creditee name="Performed by Beastie Boys"/>
+<Creditee name="Written by Michael Diamond, Adam Horovitz, Rick Rubin and Adam Yauch"/>
+<Creditee name="Published by American Def Tunes, Inc. (Administered by Sony/ATV Tunes LLC) and Universal – Polygram Int. Publ., Inc. o/b/o itself and Brooklyn Dust Music"/>
+<Creditee name="Courtesy of The Island Def Jam Music Group under license from Universal Music Enterprises"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Bring The Noise 20XX”">
+<Creditee name="Performed by Public Enemy featuring Zakk Wylde"/>
+<Creditee name="Written by Chuck D, Eric Sadler and Hank Shocklee"/>
+<Creditee name="Published by Reach Global Songs (BMI) and Songs of Universal, Inc. (BMI)"/>
+<Creditee name="Courtesy of Bring The Noize Music, Inc., Zakk Wylde and Reach Global, Inc."/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Bust A Move”">
+<Creditee name="Performed by Young MC"/>
+<Creditee name="Written by Marvin Young, Matt Dike, Luther Rabb and Jim Walters"/>
+<Creditee name="Published by Spirit Two Music, Inc. o/b/o Varry White Music, EX VW, INC. (ASCAP) administered Bug and Microhits Music Corp."/>
+<Creditee name="Courtesy of Delicious Vinyl"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Bustin’ Loose”">
+<Creditee name="Performed by Chuck Brown and The Soul Searchers"/>
+<Creditee name="Written by Charles Brown"/>
+<Creditee name="Published by Swing T. Publishing, Inc."/>
+<Creditee name="Master Courtesy of Logan H. Westbrooks/Source Records"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Cars”">
+<Creditee name="Performed by Gary Numan"/>
+<Creditee name="Written by Gary Numan"/>
+<Creditee name="Published By Universal – Polygram Int. Publ., Inc. o/b/o Universal/Momentum Music 3 Ltd"/>
+<Creditee name="(p) 1979 Beggars Banquet Records"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Change Clothes”">
+<Creditee name="Performed by JAY-Z featuring Pharrell"/>
+<Creditee name="Written by Shawn Carter and Pharrell Williams"/>
+<Creditee name="Published by EMI April Music Inc. and EMI Blackwood Music Inc."/>
+<Creditee name="Courtesy of The Island Def Jam Music Group under license from Universal Music Enterprises"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Control”">
+<Creditee name="Performed by Kid Sister"/>
+<Creditee name="Written by Alex Epton and Melissa Young"/>
+<Creditee name="Published by Downtown Music Publishing"/>
+<Creditee name="Courtesy of Downtown Records"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Da Funk”">
+<Creditee name="Performed by Daft Punk"/>
+<Creditee name="Written by Thomas Bangalter and Guy-Manuel de Homem-Christo"/>
+<Creditee name="Published by Universal Music – Z Songs o/b/o Imagem London Ltd."/>
+<Creditee name="Courtesy of Daft Trax under license to EMI Music France"/>
+<Creditee name="Under license from EMI Film and Television Music"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Day ‘N’ Night”">
+<Creditee name="Performed by Kid Cudi"/>
+<Creditee name="Written by Scott Mescudi and Oladipo Omishore"/>
+<Creditee name="Published by Elsie’s Baby Boy  and Universal Music Corp. o/b/o itself and Owo Olorun"/>
+<Creditee name="Courtesy of Universal Motown Records under license from Universal Music Enterprises"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Disco Inferno”">
+<Creditee name="Performed by 50 Cent"/>
+<Creditee name="Written by Teraike Crawford, Curtis Jackson and Phillip Pitts"/>
+<Creditee name="Published by Universal Music Corp. o/b/o itself and 50 Cent Music / Songs of Universal, Inc."/>
+<Creditee name="Courtesy of Interscope Records under license from Universal Music Enterprises"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Disco Inferno” ">
+<Creditee name="Performed by The Trammps"/>
+<Creditee name="Written by Leroy Green and Tyrone G. Kersey"/>
+<Creditee name="Published by Mercy Kersey Music (BMI) and FSMGI (IMRO), Administered by State One Music America (BMI)"/>
+<Creditee name="Courtesy of Buddah Records and The RCA/Jive Label Group, a unit of Sony Music Entertainment by arrangement with Sony Music Licensing"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Disturbia”">
+<Creditee name="Performed by Rihanna"/>
+<Creditee name="Written by Robert Allen, Chris Brown, Andre Merritt and Brian Kennedy"/>
+<Creditee name="Published by Songs Of Universal, Inc. o/b/o itself and Culture Beyond Ur Experience Publ./Universal Music Corp. and Sony/ATV Songs LLC / A List Vocals"/>
+<Creditee name="Courtesy of The Island Def Jam Music Group under license from Universal Music Enterprises"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“DJ Hero” feat. Murs">
+<Creditee name="With “Jukebox Hero” as performed by Foreigner"/>
+<Creditee name="Written by Mick Jones and Lou Gramm"/>
+<Creditee name="Produced and Remixed by Z-Trip"/>
+<Creditee name="Additional beats written by Z-Trip"/>
+<Creditee name="Courtesy of Trigger Productions"/>
+<Creditee name="Published by Somerset Songs Publishing, Inc."/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“The Edge”">
+<Creditee name="Performed by David Axelrod"/>
+<Creditee name="Written by David Axelrod"/>
+<Creditee name="Published by Beechwood Music Corp."/>
+<Creditee name="Courtesy of Capitol Records"/>
+<Creditee name="Under license from EMI Film and Television Music"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Elements of Life”">
+<Creditee name="Performed by Tiësto"/>
+<Creditee name="Written by Geert Huinink, Tijs Verwest and Reijers Waakop"/>
+<Creditee name="Published by Tenyor Music (BMI)/Talpa Music"/>
+<Creditee name="Courtesy of Ultra Records, Inc."/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Eric B. Is President”">
+<Creditee name="Performed by Eric B. and Rakim"/>
+<Creditee name="Written by Eric Barrier and William Griffin"/>
+<Creditee name="Published by Universal – Songs of Polygram Int., Inc. o/b/o itself and Robert Hill Music"/>
+<Creditee name="Courtesy of The Island Def Jam Music Group under license from Universal Music Enterprises"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Excuse Me Miss”">
+<Creditee name="Performed by JAY-Z"/>
+<Creditee name="Written by Shawn Carter, Chad Hugo and Pharrell Williams"/>
+<Creditee name="Published by EMI April Music Inc. and EMI Blackwood Music Inc."/>
+<Creditee name="Courtesy of The Island Def Jam Music Group under license from Universal Music Enterprises"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Feel Good Inc.”">
+<Creditee name="Performed by Gorillaz"/>
+<Creditee name="Written by Damon Albarn, Brian Burton, Jamie Hewlett and David Jolicoeur"/>
+<Creditee name="Published by EMI Blackwood Music Inc., Chrysalis Music (ASCAP) and Shelly Bay Music o/b/o 80’s Kid Music (BMI)"/>
+<Creditee name="Courtesy of EMI Records LTD"/>
+<Creditee name="Under license from EMI Film and Television Music"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Fight! Smash! Win!”">
+<Creditee name="Performed by Street Sweeper Social Club"/>
+<Creditee name="Written by Tom Morello and Boots Riley"/>
+<Creditee name="Published by Street Sweeper SC Music (BMI) admin. by Wixen Music Publishing, and Music of Windswept and Field Negro Music (ASCAP) administered by Bug Music-Music of Windswept"/>
+<Creditee name="Courtesy of ILG and Street Sweeper Social Club"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Fix Up, Look Sharp”">
+<Creditee name="Performed by Dizzee Rascal"/>
+<Creditee name="Written by Nicholas Detnon, Dylan Mills and Billy Squier"/>
+<Creditee name="Published by Universal – Polygram Int. Publ., Inc. o/b/o Hero Music Ltd. and Spirit Two Music, Inc. o/b/o Songs Of The Knight"/>
+<Creditee name="(P) 2003 XL Recordings Limited"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Fresh Rhymes and Videotape”">
+<Creditee name="Performed by Evidence, The Alchemist, Aceyalone, Rakaa and 88 Keys"/>
+<Creditee name="Written by M. Perretta, A, Maman, E. Hayes, R. Taylor, C. Njapa"/>
+<Creditee name="Published by Double Vinyl Music (BMI), That Kind of Music  (ASCAP), A. Maman Music (ASCAP), Triclops Media (BMI), Janitorial Duties (ASCAP)"/>
+<Creditee name="Courtesy of Decon"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Fuzz and Them”">
+<Creditee name="Performed by Connie Price and the Keystones"/>
+<Creditee name="Written by Todd M. Simon and Dan Ubick"/>
+<Creditee name="© 2004 Now Again Records, LLC"/>
+<Creditee name="Licensed courtesy of Now Again Records, LLC"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Genesis”">
+<Creditee name="Performed by Justice"/>
+<Creditee name="Written by Gaspard Michel Andre Auge and Xavier DeRosnay"/>
+<Creditee name="Published by Headbangers Publishing / Because Editions. All rights admin. by Blue Mountain Music, Ltd d/b/a Irish Town Songs (ASCAP)"/>
+<Creditee name="Courtesy of Downtown Records"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Get Down”">
+<Creditee name="Performed by The Freedom Express"/>
+<Creditee name="Written by Ron Brown"/>
+<Creditee name="Published by Deveras Music BMI"/>
+<Creditee name="Courtesy of Now-Again Records and Ron Brown"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Give It To Me Baby”">
+<Creditee name="Performed by Rick James"/>
+<Creditee name="Written by Rick James"/>
+<Creditee name="Published by Jobete Music Co., Inc."/>
+<Creditee name="Courtesy of Motown Records under license from Universal Music Enterprises"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Good Thang”">
+<Creditee name="Performed by Q-Tip"/>
+<Creditee name="Written by Kamaal Fareed"/>
+<Creditee name="Published by Q-Tip Publishing"/>
+<Creditee name="Courtesy of Universal Motown Records under license from Universal Music Enterprises"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Groundhog”">
+<Creditee name="Performed by Noisia"/>
+<Creditee name="Written by and Produced by Nik, Martijn and Thijs @ De Noisia Kantoor II"/>
+<Creditee name="Published by Division Recordings"/>
+<Creditee name="Courtesy of Division Recordings"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Hella Good”">
+<Creditee name="Performed by No Doubt"/>
+<Creditee name="Written by Chad Hugo, Tony Kanal, Gwen Stefani and Pharrell Williams"/>
+<Creditee name="Published by Universal Music Corp. o/b/o itself and World Of The Dolphin Music, EMI April Music Inc. and EMI Blackwood Music Inc."/>
+<Creditee name="Courtesy of Interscope Records under license from Universal Music Enterprises"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Here Comes My DJ”">
+<Creditee name="Performed by Grandmaster Flash, DJ Kool, DJ Demo"/>
+<Creditee name="Written by Grandmaster Flash/Joseph Saddler"/>
+<Creditee name="Published by Adrenaline Music Publishing, Inc."/>
+<Creditee name="Courtesy of Strut Records part of the !K7 label group"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Here’s A Little Somethin’ For Ya”">
+<Creditee name="Performed by Beastie Boys"/>
+<Creditee name="Written by Mike Diamond, Adam Horovitz and Adam Yauch"/>
+<Creditee name="Published by Brooklyn Dust Music"/>
+<Creditee name="Courtesy of Capitol Records"/>
+<Creditee name="Under license from EMI Film and Television Music"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Hey Mama”">
+<Creditee name="Performed by Black Eyed Peas feat. Tippa Irie"/>
+<Creditee name="Written by William Adams and Anthony Henry"/>
+<Creditee name="Published by Liftmoney (MCPS) and Will.I.Am Music Inc. administered by Cherry Lane Music Publishing"/>
+<Creditee name="Courtesy of Interscope Records under license from Universal Music Enterprises"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Hollaback Girl”">
+<Creditee name="Performed by Gwen Stefani"/>
+<Creditee name="Written by Gwen Stefani and Pharrell Williams"/>
+<Creditee name="Published by Harajuku Lover Music and EMI Blackwood Music Inc."/>
+<Creditee name="Courtesy of Interscope Records under license from Universal Music Publishing"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“How Do You Want It”">
+<Creditee name="Performed by 2Pac"/>
+<Creditee name="Written by Bruce Fisher, Johnny Lee Jackson, Quincy Jones, Stan Richardson, Tupac Shakur and Leon Ware"/>
+<Creditee name="Published by Universal Music Corp. / Universal Music – MGB Songs / Almo Music Corp. / Irving Music, Inc. o/b/o Quicksand Music and Cherry Lane Music Publishing o/b/o Quincy Jones Publishing"/>
+<Creditee name="(P) 1996.  Courtesy of Wide Awake - Death Row Entertainment LLC o/b/o Wide Awake Entertainment Group, Inc."/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“How Ya Like Me Now”">
+<Creditee name="Performed by Kool Moe Dee"/>
+<Creditee name="Written by Mohandas Dewese and Teddy Riley"/>
+<Creditee name="Published by Universal Music – Z Tunes LLC / Universal Music – Z Songs and Donril Music/ASCAP, a div. of Evergreen Copyrights"/>
+<Creditee name="Courtesy of Jive Records and The RCA/Jive Label Group, a unit of Sony Music Entertainment by arrangement with Sony Music Licensing"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“I Can’t Stop (David Penn Remix)”">
+<Creditee name="Performed by Sandy Rivera and David Penn"/>
+<Creditee name="Written by Sandy Rivera and Littleton Brown"/>
+<Creditee name="Published by Defected Music"/>
+<Creditee name="PandC 2009 Defected Records under license from Deep Vision Records."/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“I Heard It Through The Grapevine”">
+<Creditee name="Performed by Marvin Gaye"/>
+<Creditee name="Written by Barrett Strong and Norman Whitfield"/>
+<Creditee name="Published by Stone Agate Music (A Division of Jobete Music Co., Inc.)"/>
+<Creditee name="Courtesy of Motown Records under license from Universal Music Enterprises"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“I Like To Move It”">
+<Creditee name="Performed by Reel 2 Real featuring the Mad Stuntman"/>
+<Creditee name="Written by Erick A. Morillo and Mark H. Quashie"/>
+<Creditee name="Published by Strictly Rhythm Publishing / Mega Platinum Music"/>
+<Creditee name="Courtesy of Strictly Rhythm Records, Inc."/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“I Want You Back”">
+<Creditee name="Performed by Jackson 5"/>
+<Creditee name="Written by Berry Gordy, Jr., Alphonso Mizell, Freddie Perren and Deke Richards"/>
+<Creditee name="Published by Jobete Music Co., Inc."/>
+<Creditee name="Courtesy of Motown Records under license Universal Music Enterprises"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Ice Ice Baby”">
+<Creditee name="Performed by Vanilla Ice"/>
+<Creditee name="Written by David Bowie, Floyd Brown, John Deacon, Mario Johnson, Brian May, Freddie Mercury, Roger Taylor and Rob Van Winkle"/>
+<Creditee name="Published by Johnson Music Co and Knightlife Productions (Administered by Sony/ATV Songs LLC), Tintoretto Music (BMI) administered by RZO Music, Inc., Ice Baby Music and EMI Blackwood Music Inc. and Beechwood Music Corp."/>
+<Creditee name="Courtesy of Capitol Records"/>
+<Creditee name="Under license from EMI Film and Television Music"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Insane In The Brain”">
+<Creditee name="Performed by Cypress Hill"/>
+<Creditee name="Written by Louis Freeze, Larry Muggerud and Senen Reyes"/>
+<Creditee name="Published by Universal Music Corp. o/b/o itself and Soul Assassin Music / Universal Music – MGB Songs o/b/o itself and Cypress Phuncky Music"/>
+<Creditee name="Courtesy of Columbia Records, a unit of Sony Music Entertainment by arrangement with Sony Music Licensing"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Intergalactic”">
+<Creditee name="Performed by Beastie Boys"/>
+<Creditee name="Written by Mario Caldato Jr., Michael Louis Diamond, Adam Horovitz and Adam Yauch"/>
+<Creditee name="Published by Universal – Polygram Int. Publ., Inc. o/b/o itself and Brooklyn Dust Music"/>
+<Creditee name="Courtesy of Capitol Records"/>
+<Creditee name="Under license from EMI Film and Television Music"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Izzo (H.O.V.A.)”">
+<Creditee name="Performed by JAY-Z"/>
+<Creditee name="Written by Shawn Carter, Berry Gordy, Alphonso Mizell, Freddie Perren, Deke Richards and Kanye West"/>
+<Creditee name="Published by EMI April Music Inc., EMI Blackwood Music Inc. and Jobete Music Co., Inc."/>
+<Creditee name="Courtesy of The Island Def Jam Music Group under license from Universal Music Enterprises"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Jack Of Spades”">
+<Creditee name="Performed by Boogie Down Productions"/>
+<Creditee name="Written by Lawrence Parker"/>
+<Creditee name="Published by Universal Music – Z Tunes LLC"/>
+<Creditee name="Courtesy of Jive Records and The RCA/Jive Label Group, a unit of Sony Music Entertainment by arrangement with Sony Music Licensing"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Jayou”">
+<Creditee name="Performed by Jurassic 5"/>
+<Creditee name="Written by Dante Givens, Courtenay Henderson, Lucas MacFadden, Mark Potsic, Charles Stewart and Marc Stuart"/>
+<Creditee name="Published by Dj Nu-Mark Music (BMI), Macari and Me Music (ASCAP), Najita Music (ASCAP), Manphibian Music (ASCAP), Inshallah Music (ASCAP), Upper Crust Music (ASCAP)"/>
+<Creditee name="Courtesy of Decon and Jurassic 5"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Jeep A** Gutter (Aaron LaCrate and Debonair Samir RMX)”">
+<Creditee name="Performed by Masta Ace"/>
+<Creditee name="Written by Duval A. Clear, Reginald D. Ellis and Norman A. Glover"/>
+<Creditee name="Published by Spirit Two Music, Inc. o/b/o Varry White Music, Inc."/>
+<Creditee name="Courtesy of Delicious Vinyl"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Just To Get A Rep”">
+<Creditee name="Performed by Gang Starr"/>
+<Creditee name="Written by Keith Elam and Chris Martin"/>
+<Creditee name="Published by Almo Music Corp. o/b/o itself and Gifted Pearl Music, Inc."/>
+<Creditee name="Courtesy of Virgin Records"/>
+<Creditee name="Under license from EMI Film and Television Music"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Lapdance”">
+<Creditee name="Performed by N.E.R.D."/>
+<Creditee name="Written by Chad Hugo, Gene Elliott Thornton Jr. and Pharrell Williams"/>
+<Creditee name="Published by EMI April Music Inc. and EMI Blackwood Music Inc."/>
+<Creditee name="Courtesy of Virgin Records"/>
+<Creditee name="Under license from EMI Film and Television Music"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Last Night A DJ Saved My Life”">
+<Creditee name="Performed by InDeep"/>
+<Creditee name="Written by Mike Cleveland"/>
+<Creditee name="Published by EMI Virgin Songs, Inc. d/b/a EMI Longitude Music"/>
+<Creditee name="Courtesy of Unidisc Music, Inc."/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Lee Majors Come Again”">
+<Creditee name="Performed by Beastie Boys"/>
+<Creditee name="Written by Michael Diamond, Adam Horovitz and Adam Yauch"/>
+<Creditee name="Published by Brooklyn Dust Music (ASCAP)"/>
+<Creditee name="Courtesy of Capitol Records"/>
+<Creditee name="Under license from EMI Film and Television Music"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Let’s Dance”">
+<Creditee name="Performed by David Bowie"/>
+<Creditee name="Written by David Bowie"/>
+<Creditee name="Published by Jones Music America (ASCAP) administered by ARZO Publishing"/>
+<Creditee name="Courtesy of RZO Music"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Lookin’ At Me”">
+<Creditee name="Performed by Wale"/>
+<Creditee name="Written by Kirk S. Robinson, Makeba Riddick, Andre Lyon, Marcello Valenzano, Olubowale Akintimehin and Stefani Germanotta"/>
+<Creditee name="Published by Universal Music – Z Tunes o/b/o itself and Dade Co. Project Music, First Priority Music (BMI) / Hot Butter Milk Music, Inc. (ASCAP) admin. by Evergreen Copyrights, EMI Blackwood Music Inc., Dead Stock Music (ASCAP) and Sony/ATV Songs LLC / House of Gaga Publishing Inc (BMI),"/>
+<Creditee name="Courtesy of Interscope Records under license from Universal Music Enterprises"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Loser”">
+<Creditee name="Performed by Beck"/>
+<Creditee name="Written by Beck Hansen and Carl Stephenson"/>
+<Creditee name="Published by Universal Music – MGB Songs o/b/o itself, Cyanide Breathmint and Funky Toe Publ."/>
+<Creditee name="Courtesy of Geffen Records under license from Universal Music Enterprises"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Monkey Wrench”">
+<Creditee name="Performed by Foo Fighters"/>
+<Creditee name="Written by Pat Smear, Dave Grohl and Nate Mendel"/>
+<Creditee name="Published by Ruthensmear Music (BMI) administered by Bug Music and EMI Virgin Songs, Inc. (BMI)"/>
+<Creditee name="Courtesy of Roswell Records"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Mr. Big Stuff”">
+<Creditee name="Performed by Jean Knight"/>
+<Creditee name="Written by Ralph Williams, Joseph Broussard and Carol Washington"/>
+<Creditee name="Published by Peermusic III, Ltd., Malaco Music Co. and Caraljo Music"/>
+<Creditee name="Courtesy of Concord Music Group, Inc."/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“My Name Is”">
+<Creditee name="Performed by Eminem"/>
+<Creditee name="Written by Labi Siffre"/>
+<Creditee name="Published by MAM Music Publishing Corp. (ASCAP)"/>
+<Creditee name="Courtesy of Interscope Records under license from Universal Music Enterprises"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Nothing But You”">
+<Creditee name="Performed by Paul van Dyk"/>
+<Creditee name="Written by Paul van Dyk, Leslie Hemstock and Christopher Jennings"/>
+<Creditee name="Published by Universal Music – Careers o/b/o Sights and Sounds Publ. GmbH/Universal Music Corp. o/b/o 23rd Music Precinct Ltd."/>
+<Creditee name="Courtesy of Paul van Dyk GmbH under exclusive license to EMI Records Ltd"/>
+<Creditee name="Under license from EMI Film and Television Music"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“The Number Song (2009 Version)”">
+<Creditee name="Performed by DJ Shadow"/>
+<Creditee name="Written by Josh Davis"/>
+<Creditee name="Published by Universal Music Corp. o/b/o Mo Wax Music Ltd."/>
+<Creditee name="Courtesy of Universal-Island Records Ltd. under license from Universal Music Enterprises"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Organ Donor (Extended Overhaul)”">
+<Creditee name="Performed by DJ Shadow"/>
+<Creditee name="Written by Josh Davis"/>
+<Creditee name="Published by Universal Music Corp. o/b/o Mo Wax Music Ltd."/>
+<Creditee name="Courtesy of Universal-Island Records Ltd. under license from Universal Music Enterprises"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Paper Planes”">
+<Creditee name="Performed by M.I.A."/>
+<Creditee name="Written by Mathangi Arulpragasam, Topper Headon, Mick Jones, Joe Strummer, Thomas Pentz and Paul Simonon"/>
+<Creditee name="Published by Universal – Polygram Int. Publ. o/b/o Nineden Ltd./Universal Music Z Tunes o/b/o Imagem London Ltd. and Hollertronix, administered by Domino Publishing Company USA (ASCAP)"/>
+<Creditee name="Courtesy of Interscope Records under license from Universal Music Enterprises and XL Recordings Limited"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Pjanoo”">
+<Creditee name="Performed by Eric Prydz"/>
+<Creditee name="Written by Eric Prydz"/>
+<Creditee name="Published by EMI Blackwood Music Inc."/>
+<Creditee name="Courtesy of Ultra Records, Inc."/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Play That Funky Music”">
+<Creditee name="Performed by Wild Cherry"/>
+<Creditee name="Written by Robert W. Parissi"/>
+<Creditee name="Published by BEMA Music Div of Sweet City Records Inc. o/b/o and as admin. of RWP Music"/>
+<Creditee name="Courtesy of Epic Records, a unit of Sony Music Entertainment by arrangement with Sony Music Licensing"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Poison”">
+<Creditee name="Performed by Bell Biv DeVoe"/>
+<Creditee name="Written by Elliott Straite"/>
+<Creditee name="Published by Hip City Music / HiFrost Publishing, Inc."/>
+<Creditee name="Courtesy of Geffen Records under license from Universal Music Enterprises"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Put Your Hands Up For Detroit”">
+<Creditee name="Performed by Fedde Le Grand"/>
+<Creditee name="Written by Fedde Le Grand, Matthew Dear, David Shayman and Samuel Valenti IV"/>
+<Creditee name="Published by EMI Blackwood Music Inc. and Ghostly Songs, LLC Administered by Kobalt Music Publishing America, Inc."/>
+<Creditee name="Courtesy of Ultra Records, Inc."/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Rapture”">
+<Creditee name="Performed by Blondie"/>
+<Creditee name="Written by Deborah Harry and Christopher Stein"/>
+<Creditee name="Published by Chrysalis Music o/b/o itself and Monster Island Music Publishing Corp. (ASCAP)"/>
+<Creditee name="Courtesy of Capitol Records"/>
+<Creditee name="Under license from EMI Film and Television Music"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Robot Rock”">
+<Creditee name="Performed by Daft Punk"/>
+<Creditee name="Written by Thomas Bangalter, Guy-Manuel de Homem-Cristo, Emmanu and Kae Williams Jr."/>
+<Creditee name="Published by Pizzazz Music (BMI) and Universal Music – Z Songs o/b/o Imagem London Ltd."/>
+<Creditee name="Courtesy of Daft Life under license to EMI Music France under license from EMI Film and Television Music"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Rock The Bells”">
+<Creditee name="Performed by LL Cool J”"/>
+<Creditee name="Written by Rick Rubin and James Smith"/>
+<Creditee name="Published by American Def Tunes Inc, LL Cool J Music (Administered by Sony/ATV Tunes LLC) and Universal Music Corp."/>
+<Creditee name="Courtesy of The Island Def Jam Music Group under license from Universal Music Enterprises"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Rockit”">
+<Creditee name="Performed by Herbie Hancock"/>
+<Creditee name="Written by Herbert Hancock,Michael Beinhorn and Bill Laswell"/>
+<Creditee name="Published by Hancock Music, Bridge of Sighs Music and “A” Side Music LLC o/b/o Bill Laswell"/>
+<Creditee name="Courtesy of Hancock Music and Behavioral Strategies/Resource"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Sabotage” ">
+<Creditee name="Performed by Beastie Boys"/>
+<Creditee name="Written by Michael Diamond, Adam Horovitz and Adam Yauch"/>
+<Creditee name="Published by Universal – Polygram Int. Publ., Inc. o/b/o itself and Brooklyn Dust Music"/>
+<Creditee name="Courtesy of Capitol Records"/>
+<Creditee name="Under license from EMI Film and Television Music"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Satisfaction”">
+<Creditee name="Performed by Benny Benassi"/>
+<Creditee name="Written and Composed by A. Benassi"/>
+<Creditee name="Published by Off Limits/Energy Productions"/>
+<Creditee name="Courtesy of Ultra Records, Inc."/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Semi-Charmed Life”">
+<Creditee name="Performed by Third Eye Blind"/>
+<Creditee name="Written by Stephan Jenkins"/>
+<Creditee name="Published by Music Of EverPop"/>
+<Creditee name="(c) Copyright 1997.  Music Of EverPop/BMI, a div. of Evergreen Copyrights."/>
+<Creditee name="Courtesy of Third Eye Blind"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Shook Ones, Pt. 2”">
+<Creditee name="Performed by Mobb Deep"/>
+<Creditee name="Written by Albert Johnson and Kejuan Muchita"/>
+<Creditee name="Published by Universal Music – MGB Songs o/b/o itself and Juvenile Hell / Universal Music – Careers o/b/o itself and P. Noid Publ."/>
+<Creditee name="Courtesy of The RCA Records Label and The RCA/Jive Label Group, a unit of Sony Music Entertainment by arrangement with Sony Music Licensing"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Short Circuit”">
+<Creditee name="Performed by Daft Punk"/>
+<Creditee name="Written by Thomas Bangalter and Guy-Manuel de Homem-Christo"/>
+<Creditee name="Published by Universal Music – Z Songs o/b/o Daft Life Ltd."/>
+<Creditee name="Courtesy of Daft Life under license to EMI Music France"/>
+<Creditee name="Under license from EMI Film and Television Music"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Shout”">
+<Creditee name="Performed by Tears For Fears"/>
+<Creditee name="Written by Roland Orzabal and Ian Stanley"/>
+<Creditee name="Published by EMI Virgin Songs, Inc."/>
+<Creditee name="Courtesy of Mercury Records Limited under license from Universal Music Enterprises"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Shut ‘Em Down”">
+<Creditee name="Performed by Public Enemy"/>
+<Creditee name="Written by Chuck D, Hank Shocklee and Gary G-Wiz"/>
+<Creditee name="Published by Reach Global Songs (BMI) and Songs of Universal, Inc. (BMI) "/>
+<Creditee name="Courtesy of Reach Global, Inc."/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Six Days (Remix feat. Mos Def)”">
+<Creditee name="Performed by DJ Shadow feat. Mos Def"/>
+<Creditee name="Written by Josh Davis and Brian Farrell"/>
+<Creditee name="Published by Belsize Music Ltd. and Universal Music Corp. o/b/o MCA Music Ltd."/>
+<Creditee name="Courtesy of Universal-Island Records Ltd. under license from Universal Music Enterprises and Splash Records Ltd. (London)"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Somebody Told Me”">
+<Creditee name="Performed by The Killers"/>
+<Creditee name="Written by Brandon Flowers, Dave Keuning, Mark Stoermer and Ronnie Vannucci"/>
+<Creditee name="Published by Universal – Polygram Int. Publ., Inc. o/b/o Universal Music Publ. Ltd."/>
+<Creditee name="Courtesy of The Island Def Jam Music Group under license from Universal Music Enterprises"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Spooky”">
+<Creditee name="Performed by Classics IV"/>
+<Creditee name="Written by Buddy Buie, James Cobb Jr., Harry Middlebrooks and Mike Shapiro"/>
+<Creditee name="Published by Sony/ATV Songs LLC"/>
+<Creditee name="Courtesy of Capitol Records"/>
+<Creditee name="Under license from EMI Film and Television Music"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Straight Up”">
+<Creditee name="Performed by Paula Abdul"/>
+<Creditee name="Written by Elliott Wolff"/>
+<Creditee name="Published by EMI Virgin Music, Inc."/>
+<Creditee name="Courtesy of Virgin Records"/>
+<Creditee name="Under license from EMI Film and Television Music"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Strange Enough” featuring Karen O, ODB and Fatlip">
+<Creditee name="Performed by N.A.S.A. Written by Sam Spiegel, Ze Gonzales, Karen Orzolek and ODB"/>
+<Creditee name="Published by Maestrobyte Publishing (administered by Domino Publishing Company USA (ASCAP)), Chrysalis Songs (BMI) and ODB"/>
+<Creditee name="Courtesy of Anti-"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Technologic”">
+<Creditee name="Performed by Daft Punk"/>
+<Creditee name="Written by Thomas Bangalter and Guy-Manuel de Homem-Christo"/>
+<Creditee name="Published by  Universal Music – Z Songs o/b/o Imagem London Ltd."/>
+<Creditee name="Courtesy of Daft Life under license to EMI Music France"/>
+<Creditee name="Under license from EMI Film and Television Music"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Television Rules The Nation”">
+<Creditee name="Performed by Daft Punk"/>
+<Creditee name="Written by Thomas Bangalter and Guy-Manuel de Homem-Christo"/>
+<Creditee name="Published by Universal Music – Z Songs o/b/o Imagem London Ltd."/>
+<Creditee name="Courtesy of Daft Life under license to EMI Music France"/>
+<Creditee name="Under license from EMI Film and Television Music"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Theme From Shaft”">
+<Creditee name="Performed by Isaac Hayes"/>
+<Creditee name="Written by Isaac Hayes"/>
+<Creditee name="Published by Irving Music, Inc."/>
+<Creditee name="Courtesy of Concord Music Group, Inc."/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Time Of The Season”">
+<Creditee name="Performed by The Zombies"/>
+<Creditee name="Written by Rod Argent"/>
+<Creditee name="Published by Verulam Music Co Ltd Worldwide"/>
+<Creditee name="Courtesy of Marquis Enterprises Ltd All rights reserved."/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Tutti Frutti”">
+<Creditee name="Performed by Little Richard"/>
+<Creditee name="Written by Richard Penniman, Dorothy Labostrie, Joe Lubin"/>
+<Creditee name="Published by Sony/ATV Songs LLC"/>
+<Creditee name="Courtesy of Concord Music Group, Inc."/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“U Can’t Touch This”">
+<Creditee name="Performed by MC Hammer"/>
+<Creditee name="Written by MC Hammer, Rick James and Alonzo Miller"/>
+<Creditee name="Published by Bust It Publishing (BMI), a div. of EverGreen Copyrights, Jobete Music Co., Inc. and Stone Diamond Music Corp."/>
+<Creditee name="Courtesy of Capitol Records"/>
+<Creditee name="Under license from EMI Film and Television Music"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Universal Mind Control (UMC)”">
+<Creditee name="Performed by Common"/>
+<Creditee name="Written by Lonnie Lynn, Chad Hugo and Pharrell Williams"/>
+<Creditee name="Published by Songs of Universal, Inc. o/b/o itself and Senseless Music, Inc. / Universal Music – Careers o/b/o itself and Raynchaserand EMI April Music Inc."/>
+<Creditee name="Courtesy of Geffen Records under license from Universal Music Enterprises"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“We Will Rock You”">
+<Creditee name="Performed by Queen"/>
+<Creditee name="Written by Brian May"/>
+<Creditee name="Published by Beechwood Music Corp."/>
+<Creditee name="Courtesy of Hollywood Records and EMI Records Ltd."/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Where It’s At”">
+<Creditee name="Performed by Beck"/>
+<Creditee name="Written by Beck Hansen, John King and Michael Simpson"/>
+<Creditee name="Published by Universal Music Corp. o/b/o itself and Dust Brothers Music / Universal Music – MGB Songs o/b/o itself and Cyanide Breathmint"/>
+<Creditee name="Courtesy of Geffen Records under license from Universal Music Enterprises"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Word Up!”">
+<Creditee name="Performed by Cameo"/>
+<Creditee name="Written by Larry Blackmon and Tomi Jenkins"/>
+<Creditee name="Published by Universal – Songs of Polygram Int., Inc. o/b/o Better Days Music / Universal – Polygram Int. Publ., Inc. o/b/o All Seeing Eye Music"/>
+<Creditee name="Courtesy of The Island Def Jam Music Group under license from Universal Music Enterprises"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+<CreditsGroup displayname="“Zulu Nation Throwdown”">
+<Creditee name="Performed by Afrika Bambaataa"/>
+<Creditee name="Written by Cosmic Force"/>
+<Creditee name="Published by Chicago Typewriter Music o/b/o Ninny Music"/>
+<Creditee name="Courtesy of Traffic Entertainment Group"/>
+<Creditee name="All Rights Reserved. Used by Permission."/>
+</CreditsGroup>
+		
+		<Creditee name="Uses Granny Animation.  Copyright © 1999-2008 by RAD Game Tools, Inc."/>
+
+		<Creditee name="Uses Bink Video. Copyright © 1997-2008 by RAD Game Tools, Inc."/>
+
+		<Creditee name="Licensee Developed Game Title uses Havok® ©Copyright 1998-2009 Havok.com Inc. (and its Licensors). All Rights Reserved. See www.havok.com for details."/>
+
+		<Creditee name="FMOD Ex Sound System and Firelight Technologies"/>
+
+		<Creditee name="Sound Design by Dror Mohar of Soundelux Music Group."/>
+
+		<Creditee name="Your installation and use of this game is subject to Activision Publishing, Inc. terms of service and Activision Publishing, Inc. privacy policy as well as those of its partners. The Activision Publishing, Inc. privacy policy can be found at http://www.activision.com/ "/>
+    <Creditee name="If you install and play this game you will receive advertising messages that appear within and in context with the game environments to enhance the realism of the game. To provide this functionality, technology developed by IGA Worldwide Inc., has been integrated into the game. This technology will automatically deliver location-based advertising and log and transmit certain information about your interaction with the advertising. If you do not wish to receive contextual advertising messages, do not play this game while connected to the Internet."/>
+    <Creditee name="The IGA Worldwide Inc., privacy policy can be found at http://www.igaworldwide.com/privacy-policy.cfm" />
+
+    <Creditee name="© 2009 Activision Publishing, Inc. Activision and RedOctane are registered trademarks and DJ Hero is a trademark of Activision Publishing, Inc. Covered by one or more of the following patents: U.S. Patent Nos. 5739457, 6018121, 6369313, 6429863 and 6835887; patents pending. The ratings icon is a registered trademark of the Entertainment Software Association. All other trademarks and trade names are the properties of their respective owners. All rights reserved"/>
+	<CreditsGroup displayname="“Tlumaczenie DJBohaterPS3”">
+<Creditee name="FlexBy"/>
+<Creditee name="Discord = フレックスビー#7839"/>
+</CreditsGroup>
+	</Company>
+</Credits>
