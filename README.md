@@ -1,11 +1,11 @@
 # DJBohaterPS3
 Polskie tłumaczenie DJ HERO PS3
 
-Aktualnie tłumaczenie znajduje się na bardzo wczesnym etapie tzn. nie wiele tekstu jest przetłumaczone.
+Aktualnie tłumaczenie znajduje się na bardzo wczesnym etapie tzn. niewiele tekstu jest przetłumaczone.
 
-Jesli napotkasz się na błędy możesz do mnie napisać na discordzie フレックスビー#7839 lub napisać jakąś sugestie!
+Jesli napotkasz się na błędy lub chcesz zaproponować zmiany możesz do mnie napisać na discordzie フレックスビー#7839!
 
-## Instalacja w RPCS3:
+## Instalacja dla RPCS3:
 
 1. Pobierz najnowszą wersję tłumaczenia:
 
@@ -15,5 +15,5 @@ https://github.com/FlexBy420/DJBohaterPS3/releases
 3. Uruchom grę.
 4. Ciesz się tłumaczeniem!
 
-## Przetestowane wersje gry:
-BLES00602 1.00
+## Instalacja dla PS3:
+TBA
