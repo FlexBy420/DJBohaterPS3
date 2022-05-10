@@ -1,7 +1,5 @@
 # DJBohaterPS3
-Polskie tłumaczenie DJ HERO PS3
-
-Aktualnie tłumaczenie znajduje się na bardzo wczesnym etapie tzn. niewiele tekstu jest przetłumaczone.
+Polskie tłumaczenie DJ HERO PS3 (BLES00602)
 
 Jesli napotkasz się na błędy lub chcesz zaproponować zmiany możesz do mnie napisać na discordzie フレックスビー#7839!
 
