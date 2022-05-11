@@ -9,7 +9,7 @@ Jesli napotkasz się na błędy lub chcesz zaproponować zmiany możesz do mnie 
 
 https://github.com/FlexBy420/DJBohaterPS3/releases
 
-2. Skopiuj folder "PS3" do "PS3_GAME/USRDIR" i zamień pliki.
+2. Skopiuj folder "PS3" do "PS3_GAME/USRDIR" i zamień pliki (Pamiętaj, aby zrobić kopię!).
 3. Uruchom grę.
 4. Ciesz się tłumaczeniem!
 
